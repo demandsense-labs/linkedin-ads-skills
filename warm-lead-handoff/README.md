@@ -58,6 +58,7 @@ Your settings. Example:
   "own_domains": ["northwindmerch.com"],
   "agency_domains": ["impactable.com"],
   "competitor_domains": ["rivalpromo.com"],
+  "agencies_are_buyers": false,
   "cluster_max_impressions": 10,
   "cluster_min_companies": 3,
   "stale_after_days": 7
@@ -72,10 +73,11 @@ Your settings. Example:
 | `icp_sizes` | Company sizes that count as a fit |
 | `buyer_functions` | Departments that buy from you |
 | `own_domains`, `agency_domains`, `competitor_domains` | Removed from the sales list; competitors and agencies also go on the ad exclusion list |
+| `agencies_are_buyers` | `true` if marketing agencies can be your buyers, `false` if not. If you leave it out, the assistant asks, and if you say go without answering it uses `false` and tells you how many companies that held out. Agencies with a customer, open deal or trial in your CRM are never removed on this basis |
 | `cluster_max_impressions`, `cluster_min_companies` | Shared-profile cluster test: this many companies or more with identical engagement on this many impressions or fewer are treated as one person counted at every company on their profile (defaults 10 and 3). Only identical counts of 5 or more on at least 1 impression qualify; small identical counts such as 3 or 4, and rows with no paid impressions, are never treated as a cluster |
 | `stale_after_days` | A source with no data this many days before the end of the window is called dark (default 7) |
 
-The ICP (`icp_sizes`, `buyer_functions`) and `own_domains` are required: if either is missing the assistant asks for it before ranking. The agency and competitor lists are optional.
+The ICP (`icp_sizes`, `buyer_functions`) and `own_domains` are required: if either is missing the assistant asks for it before ranking. The agency and competitor lists are optional. The LinkedIn Companies tab has no domains, so a competitor is also matched by its LinkedIn page: the page link (the part after `linkedin.com/company/`) equal to the listed page, or to the first part of a listed domain. A name that only looks similar, or a common word such as Vector, is never removed: it goes to the Confirm fit table as a possible match and stays off the call list until you confirm.
 
 ## manifest.json (the pull log)
 
