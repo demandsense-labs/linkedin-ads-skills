@@ -8,7 +8,7 @@ This skill turns your LinkedIn, website-visitor and CRM data into a short list o
 2. Start a new chat and attach your files in the first message.
 3. Ask, for example: `Build this month's warm-lead handoff for <client> from these files. The client settings are in config.json.`
 
-If a file is capped or a source has gone dark, the assistant stops before ranking and asks whether to re-pull first or to continue with a list marked provisional. Reply "go" to continue.
+If a file is capped or a source has gone dark, the assistant stops before ranking and asks whether to re-pull first or to continue with a list marked provisional. Reply "go" to continue. A file at its row limit is not a problem when its engagement total equals the total for the whole source: give the account totals (in the manifest or typed in the chat) and the assistant goes on without the warning.
 
 The assistant gives recommendations only. It changes nothing in your ad account or CRM.
 
@@ -35,7 +35,7 @@ One row per company and month. Pull LinkedIn from Campaign Manager (Plan, then C
 | Column | Meaning |
 |---|---|
 | `company`, `domain` | Company name and website domain |
-| `employee_size`, `industry` | As in LinkedIn or your visitor tool, for example `1001-5000` |
+| `employee_size`, `industry` | As in LinkedIn or your visitor tool, for example `1001-5000`. If your files give different sizes for the same company, the assistant uses the CRM size first, then LinkedIn, then the visitor tool, then any other source, shows both values in the row and says so |
 | `month` | `YYYY-MM` |
 | `paid_impressions`, `paid_engagements`, `paid_clicks` | LinkedIn ads |
 | `organic_engagements` | LinkedIn company page and posts |
@@ -59,8 +59,6 @@ Your settings. Example:
   "agency_domains": ["impactable.com"],
   "competitor_domains": ["rivalpromo.com"],
   "agencies_are_buyers": false,
-  "cluster_max_impressions": 10,
-  "cluster_min_companies": 3,
   "stale_after_days": 7
 }
 ```
@@ -74,7 +72,6 @@ Your settings. Example:
 | `buyer_functions` | Departments that buy from you |
 | `own_domains`, `agency_domains`, `competitor_domains` | Removed from the sales list; competitors and agencies also go on the ad exclusion list |
 | `agencies_are_buyers` | `true` if marketing agencies can be your buyers, `false` if not. If you leave it out, the assistant asks, and if you say go without answering it uses `false` and tells you how many companies that held out. Agencies with a customer, open deal or trial in your CRM are never removed on this basis |
-| `cluster_max_impressions`, `cluster_min_companies` | Shared-profile cluster test: this many companies or more with identical engagement on this many impressions or fewer are treated as one person counted at every company on their profile (defaults 10 and 3). Only identical counts of 5 or more on at least 1 impression qualify; small identical counts such as 3 or 4, and rows with no paid impressions, are never treated as a cluster |
 | `stale_after_days` | A source with no data this many days before the end of the window is called dark (default 7) |
 
 The ICP (`icp_sizes`, `buyer_functions`) and `own_domains` are required: if either is missing the assistant asks for it before ranking. The agency and competitor lists are optional. The LinkedIn Companies tab has no domains, so a competitor is also matched by its LinkedIn page: the page link (the part after `linkedin.com/company/`) equal to the listed page, or to the first part of a listed domain. A name that only looks similar, or a common word such as Vector, is never removed: it goes to the Confirm fit table as a possible match and stays off the call list until you confirm.
@@ -104,11 +101,11 @@ Records what each pull returned, so the assistant can tell when a file is cut of
 |---|---|
 | `as_of` | The day you pulled the data |
 | `rows` | Rows in the file |
-| `limit` | The row limit you used or the tool applied. If `rows` equals `limit`, the file is cut off and the lowest-ranked companies are missing |
-| `returned_total`, `source_total` | The main metric summed over the file, and over the whole source. The share tells the assistant how much of the real activity the file covers |
+| `limit` | The row limit you used or the tool applied. If `rows` equals `limit` and the totals below do not show that the file is complete, it is cut off and the lowest-ranked companies are missing |
+| `returned_total`, `source_total` | The main metric summed over the file, and over the whole source. The share tells the assistant how much of the real activity the file covers. If the two are equal, the file holds all the engagement even at its row limit and is not treated as cut off |
 | `last_data_date` | The latest date with data. A date more than `stale_after_days` before the end of the window means the source went dark |
 
-Without a manifest, the assistant checks row counts against round limits (1,000, 10,000, 15,000) and reads the dates in the files.
+Without a manifest, the assistant checks row counts against round limits (1,000, 10,000, 15,000) and reads the dates in the files. If you type the account totals from Campaign Manager (paid clicks, paid engagements and organic engagements for each window) and they equal the file totals, a file at a round limit is accepted.
 
 ## crm.csv
 
@@ -117,7 +114,8 @@ One row per company, from HubSpot, Salesforce, Attio or similar.
 | Column | Meaning |
 |---|---|
 | `domain` | Used to match accounts (exact domain first, then exact name) |
-| `lifecycle` | For example `Customer`, `Opportunity`, `Lead` |
+| `lifecycle` | For example `Customer`, `Opportunity`, `Lead`. If your CRM exports numbers instead of labels (for example custom stage IDs), add a short legend of what each number means. The assistant never guesses a code: it asks, treats the account's stage as unknown until you answer, and never routes it as a customer |
+| `employees` (optional) | Headcount. When it differs from the size in other files, the CRM figure wins |
 | `owner` | Who owns the account or deal |
 | `open_deals`, `open_amount` | Open deals and their amount (say the currency in the chat, or the assistant will write "not stated") |
 | `won_deals`, `lost_deals` | Lifetime counts |
@@ -147,6 +145,8 @@ Personal names appear in the answer only if your own visitor tool supplied them 
 ## Company checks and web search
 
 The assistant classifies each remaining company (ICP, customer, competitor, supplier, partner, agency and so on) from the files. If your assistant has web search and a company is still unclear, it may check that company only, cite the source and mark it "web-verified". It never looks people up. Without web search, it marks the company "unclear, please confirm". Either way you confirm every competitor, supplier or partner call.
+
+The cleaning also removes website-visitor "companies" that are really networks: ISPs, hosting and VPN providers, and a "company" with many named people whose job titles cannot belong to one organisation. Names are matched as whole words, so Chartered Accountants is not treated as Charter Communications and an agency called Frontier Marketing is not treated as an ISP. Companies with identical impressions, clicks and engagements (the same person counted at every company on their LinkedIn profile) are removed as shared-profile clusters; near matches, and pairs that repeat identically from month to month, are named as possible patterns, kept in the data and never counted toward priority.
 
 ## What you get back
 
