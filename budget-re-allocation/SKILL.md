@@ -6,6 +6,10 @@ description: >
   "what to do with freed budget", "budget recommendations". Works from Campaign Manager exports. It gives
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/budget-re-allocation
 tags: [linkedin, budget, reallocation, efficiency, planning]
 ---
 

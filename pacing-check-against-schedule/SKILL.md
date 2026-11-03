@@ -6,6 +6,10 @@ description: >
   Examples: "are we pacing on budget", "which campaigns are overspending or underspending", "pacing check for
   September". Works from Campaign Manager exports. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/pacing-check-against-schedule
 tags: [linkedin, pacing, budget, spend]
 ---
 

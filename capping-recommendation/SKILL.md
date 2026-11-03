@@ -6,6 +6,10 @@ description: >
   ads to the same companies", "recommend frequency caps", "are we overexposing accounts". Works from the Companies
   export and Campaign Manager exports. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/capping-recommendation
 tags: [linkedin, frequency, caps, overexposure, reach, companies]
 ---
 

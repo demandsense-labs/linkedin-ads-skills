@@ -7,6 +7,10 @@ description: >
   performed best", "top creatives this month", "any low performers to pause", "which video ads get finished".
   Works from the Campaign Manager ad performance export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/linkedin-creative-performance
 tags: [linkedin, creative, ads, ranking, video, lead-form]
 ---
 

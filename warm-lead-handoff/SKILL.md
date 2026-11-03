@@ -10,6 +10,10 @@ description: >
   LinkedIn Companies exports, a website visitor export (companies and, if available, people), a CRM export and the
   client's ICP settings. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: Justin Rowe, Impactable, adapted by DemandSense"
+metadata:
+  author: "Justin Rowe, Impactable"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/warm-lead-handoff
 tags: [handoff, warm-leads, abm, crm, sales, linkedin, website-visitors, routine]
 ---
 

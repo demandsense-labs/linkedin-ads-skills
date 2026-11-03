@@ -8,6 +8,10 @@ description: >
   daily trend", "are we pacing on budget", "break down by campaign", "how many leads actually submit the form".
   Works from the platform exports and an optional CRM export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/ad-hoc-query
 tags: [ad-hoc, q-and-a, cross-platform, spend, trend, pacing, linkedin, google-ads, meta-ads]
 ---
 

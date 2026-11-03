@@ -8,6 +8,10 @@ description: >
   which are in our pipeline", "engaged accounts not in our CRM". Works from the LinkedIn Companies export, a website
   visitor-by-company export and a CRM export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/account-engagement
 tags: [abm, account-engagement, linkedin, website-visitors, crm, pipeline]
 ---
 

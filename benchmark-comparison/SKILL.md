@@ -7,6 +7,10 @@ description: >
   do we rank on CPC". Works from Campaign Manager exports and a published benchmark source. It gives
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/benchmark-comparison
 tags: [benchmark, percentile, linkedin, ctr, cpc, cpl, position]
 ---
 

@@ -6,6 +6,10 @@ description: >
   "video quality check", "are our video ads watched", "rank our video campaigns". Works from Campaign Manager
   exports with video columns. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/video-quality-check
 tags: [linkedin, video, completion-rate, creative]
 ---
 

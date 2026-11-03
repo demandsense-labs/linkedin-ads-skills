@@ -8,6 +8,10 @@ description: >
   website visitor export and a CRM export. It screens out agencies, vendors and staffing firms
   and ranks by real interaction. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/no-deal-warm-leads-finder
 tags: [linkedin, abm, warm-leads, website-visitors, crm, accounts]
 ---
 

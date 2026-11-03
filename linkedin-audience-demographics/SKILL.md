@@ -8,6 +8,10 @@ description: >
   Works from the Campaign Manager Demographics report. It gives shares and rates, never campaign totals, and
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/linkedin-audience-demographics
 tags: [linkedin, audience, demographics, seniority, job-function, industry, company-size]
 ---
 

@@ -7,6 +7,10 @@ description: >
   engaging, which are in our pipeline", "which target accounts are we missing". Works from the LinkedIn Companies
   export, a target-account list, a CRM export and the ad set export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/linkedin-abm-account-penetration
 tags: [abm, named-accounts, linkedin, account-engagement, target-list, pipeline]
 ---
 

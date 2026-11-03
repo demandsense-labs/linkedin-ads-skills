@@ -9,6 +9,10 @@ description: >
   budget", "monthly budget redistribution", "which ads are fatiguing", "run this week's audit". Works from Campaign
   Manager exports, the bid settings and the planned budget. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: Roman Slobodzianyk, Impactable, adapted by DemandSense"
+metadata:
+  author: "Roman Slobodzianyk, Impactable"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/account-audit-by-cadence
 tags: [audit, cadence, pacing, bids, creative-fatigue, frequency, budget, linkedin, routine]
 ---
 

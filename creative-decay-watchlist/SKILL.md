@@ -8,6 +8,10 @@ description: >
   Manager export or a connected data source such as the Windsor.ai MCP. It gives
   recommendations only and never changes an ad account.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/creative-decay-watchlist
 tags: [linkedin, creative, ad-fatigue, ctr, ads]
 ---
 

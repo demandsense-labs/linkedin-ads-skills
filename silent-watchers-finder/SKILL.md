@@ -8,6 +8,10 @@ description: >
   LinkedIn Companies tab exports, a website visitor export and a CRM export. It gives
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/silent-watchers-finder
 tags: [linkedin, abm, ad-exposure, wasted-spend, accounts]
 ---
 

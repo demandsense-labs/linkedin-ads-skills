@@ -117,7 +117,13 @@ Think a skill gets something wrong? [Open an issue](https://github.com/demandsen
 
 ## Licence
 
-<!-- LICENCE -->
+The text of every skill and scenario is under [CC BY 4.0](LICENSE): use it, adapt it, also commercially, as long as you credit the author by name, link to the source and the licence, and say what you changed. Each `SKILL.md` names its author, and [AUTHORS.md](AUTHORS.md) gives a ready credit line for each one, for example:
+
+> Warm-lead handoff by Justin Rowe, Impactable, adapted by DemandSense, CC BY 4.0
+
+The plugin manifest in `.claude-plugin/` is under the [MIT License](LICENSE-MIT).
+
+The licence covers the text, not the names: DemandSense and LinkedIn are trademarks of their owners, and a credit line does not mean an author or DemandSense endorses a changed version.
 
 ---
 

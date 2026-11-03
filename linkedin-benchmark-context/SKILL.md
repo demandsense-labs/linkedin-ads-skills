@@ -7,6 +7,10 @@ description: >
   "is our CPL good", "how does this month compare with our average", "what is a typical CPL for our industry".
   Works from monthly Campaign Manager exports and a published benchmark source. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/linkedin-benchmark-context
 tags: [benchmark, trend, history, linkedin, cpl, ctr, comparison]
 ---
 

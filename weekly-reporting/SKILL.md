@@ -5,6 +5,10 @@ description: >
   Meta), with week-over-week changes and the drivers. Examples: "how did we do last week", "weekly report by
   campaign", "what changed this week". Works from daily exports of each platform. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/weekly-reporting
 tags: [weekly, reporting, linkedin, google-ads, meta-ads, week-over-week]
 ---
 

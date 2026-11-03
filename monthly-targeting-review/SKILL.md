@@ -10,6 +10,10 @@ description: >
   targeting check", "is our targeting leaking". Works from per-campaign Demographics reports, each campaign's
   targeting and a CRM deal export with contact job titles. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: George Coudounaris, The B2B Playbook, adapted by DemandSense"
+metadata:
+  author: "George Coudounaris, The B2B Playbook"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/monthly-targeting-review
 tags: [targeting, job-titles, audit, pipeline, linkedin, crm, exclusions, routine]
 ---
 

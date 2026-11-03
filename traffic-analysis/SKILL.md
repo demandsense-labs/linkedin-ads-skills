@@ -8,6 +8,10 @@ description: >
   tagging clean". Works from a web analytics sessions export with source, medium and campaign. It gives
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/traffic-analysis
 tags: [traffic, channels, utm, attribution, website, analytics]
 ---
 

@@ -5,6 +5,10 @@ description: >
   market-benchmark section. Examples: "prepare my monthly LinkedIn report", "how did LinkedIn do in September",
   "monthly analysis with recommendations". Works from Campaign Manager exports. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/manager-monthly-report
 tags: [linkedin, monthly-report, reporting, optimization]
 ---
 

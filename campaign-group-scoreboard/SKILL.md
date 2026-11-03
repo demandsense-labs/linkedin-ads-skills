@@ -5,6 +5,10 @@ description: >
   group. Examples: "rank my campaign groups", "which group performs best", "campaign group scoreboard", "top
   campaigns per group". Works from Campaign Manager exports. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/campaign-group-scoreboard
 tags: [linkedin, campaign-groups, scoreboard, efficiency]
 ---
 

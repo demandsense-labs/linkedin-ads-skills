@@ -6,6 +6,10 @@ description: >
   I stop", "find the best creative", "is this ad really worse", "ad test results". Works from an ad-level Campaign
   Manager export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/pausing-low-performing-ads
 tags: [linkedin, creative, significance, ads, testing]
 ---
 

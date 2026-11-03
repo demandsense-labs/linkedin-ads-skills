@@ -8,6 +8,10 @@ description: >
   week", "hot visitors for sales". Works from the export of a website visitor identification
   tool and a CRM export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/whos-looking-at-your-buying-pages
 tags: [website-visitors, intent, pricing-page, sales, crm, accounts]
 ---
 

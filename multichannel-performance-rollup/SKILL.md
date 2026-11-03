@@ -8,6 +8,10 @@ description: >
   Google and Meta", "paid spend next to pipeline". Works from one export per platform and an optional CRM
   deals export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: DemandSense"
+metadata:
+  author: "DemandSense"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/multichannel-performance-rollup
 tags: [multichannel, spend, currency, cost-per-lead, rollup, linkedin, google-ads, meta-ads]
 ---
 

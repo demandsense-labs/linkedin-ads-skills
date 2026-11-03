@@ -11,6 +11,10 @@ description: >
   analysis", "are we spending on customers". Works from the Companies tab export, the user's ICP and account
   lists, and a CRM export. It gives recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: Joshua Stout, Beyond The Funnel, adapted by DemandSense"
+metadata:
+  author: "Joshua Stout, Beyond The Funnel"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/company-account-routing
 tags: [accounts, coverage, companies-tab, icp, exclusions, abm, linkedin, routine]
 ---
 
