@@ -1,0 +1,61 @@
+{
+  "name": "linkedin-ads-skills",
+  "owner": {
+    "name": "DemandSense",
+    "url": "https://demandsense.com"
+  },
+  "description": "The B2B AI Standard for LinkedIn Ads: skills and scenarios written and tested by LinkedIn Ads practitioners. Read-only: they change nothing in your ad account or CRM.",
+  "plugins": [
+    {
+      "name": "linkedin-ads-skills",
+      "source": "./",
+      "description": "4 scenarios and 26 skills for LinkedIn Ads: warm-lead handoff, account audits, targeting reviews, creative, budget, pacing, benchmarks and reporting. Read-only.",
+      "version": "1.0.0",
+      "author": {
+        "name": "DemandSense",
+        "url": "https://demandsense.com"
+      },
+      "homepage": "https://ds-b2b-ai-standards.vercel.app/collection",
+      "repository": "https://github.com/demandsense-labs/linkedin-ads-skills",
+      "keywords": [
+        "linkedin-ads",
+        "b2b",
+        "marketing",
+        "reporting",
+        "abm"
+      ],
+      "skills": [
+        "./warm-lead-handoff",
+        "./account-audit-by-cadence",
+        "./monthly-targeting-review",
+        "./company-account-routing",
+        "./no-deal-warm-leads-finder",
+        "./whos-looking-at-your-buying-pages",
+        "./account-engagement",
+        "./crm-data-health-check",
+        "./silent-watchers-finder",
+        "./capping-recommendation",
+        "./linkedin-abm-account-penetration",
+        "./waste-budget-detection",
+        "./linkedin-audience-demographics",
+        "./linkedin-creative-performance",
+        "./creative-decay-watchlist",
+        "./video-quality-check",
+        "./pausing-low-performing-ads",
+        "./account-health-check",
+        "./linkedin-performance-kpis",
+        "./pacing-check-against-schedule",
+        "./budget-re-allocation",
+        "./campaign-group-scoreboard",
+        "./weekly-reporting",
+        "./manager-monthly-report",
+        "./multichannel-performance-rollup",
+        "./traffic-analysis",
+        "./ad-hoc-query",
+        "./linkedin-benchmark-context",
+        "./benchmark-comparison",
+        "./market-benchmark-comparison"
+      ]
+    }
+  ]
+}
