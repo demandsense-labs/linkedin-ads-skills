@@ -1,6 +1,6 @@
 # The B2B AI Standard for LinkedIn Ads
 
-Skills and scenarios for running LinkedIn Ads with an AI assistant, written and tested by people who run LinkedIn Ads for a living. Each one reads your exports (or your account through the DemandSense MCP), applies the Standard's rules and tells you what to do. None of them changes anything in your ad account or CRM.
+Skills and scenarios for running LinkedIn Ads with an AI assistant, written and tested by people who run LinkedIn Ads for a living. Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM.
 
 **Browse the collection, with examples and the rules behind each check:** [ds-b2b-ai-standards.vercel.app](https://ds-b2b-ai-standards.vercel.app/collection)
 
@@ -45,10 +45,15 @@ A scenario does a whole job, start to finish, with skills inside. Each one is th
 | [Account audit by cadence](account-audit-by-cadence) | Eight account checks on a schedule: what to fix today, this week and this month | [Roman Slobodzianyk](https://www.linkedin.com/in/roman-slobodzianyk-b67549140/), [Impactable](https://impactable.com/) |
 | [Targeting vs who actually buys](monthly-targeting-review) | Who each campaign paid to reach next to the people on your deals, and where to move budget | [George Coudounaris](https://www.linkedin.com/in/b2b-marketing-expert/), [The B2B Playbook](https://theb2bplaybook.com/) |
 | [Company-level account routing](company-account-routing) | Which companies take most of the impressions, which are underserved, and which to move into their own audience | [Joshua Stout](https://www.linkedin.com/in/joshua-stout/), [Beyond The Funnel](https://www.beyondthefunnel.ai/) |
+| [LinkedIn fit gate + daily fit check](audience-fit-check) | A pass, one-more-week or rebuild call on a prospecting campaign, graded by the companies it reached against your ICP | [Jonathan Belliveau](https://www.linkedin.com/in/jonathan-belliveau/), [GrowthMotiv](https://growthmotiv.com/) |
+| [Signal loop](signal-list-routine) | Which named target companies to write to this week, and why now | [Bogdan Liutic](https://www.linkedin.com/in/bgdn/), [CR8](https://cr8.eco/) |
+| [Turn social signals into pipeline](social-signals-to-pipeline) | Two company lists from engagement on LinkedIn posts: one for sales review, one for nurture | [Alfredo Talib](https://www.linkedin.com/in/alfredo-iscandar-talib/), [Cornersight](https://www.cornersight.io/) |
+| [Weekly check for conversion campaigns](conversion-ad-weekly-check) | Lead Gen Form and Message ads judged against your goal cost per lead: what to pause and which winners to copy | [Moby Hayat](https://www.linkedin.com/in/moby/), [Fireshow Media](https://fireshowmedia.com/) |
+| [LinkedIn Campaign Early Read](linkedin-campaign-early-read) | A first read 7 to 14 days after launch: delivery, who it reaches, who engages, and the accounts to act on now | [DemandSense](https://demandsense.com) |
 
 ## Skills
 
-A skill runs one check against one rule. All skills below are by [DemandSense](https://demandsense.com).
+A skill runs one check. Skills are by [DemandSense](https://demandsense.com) unless an author is named.
 
 ### From signal to sales
 
@@ -82,6 +87,9 @@ A skill runs one check against one rule. All skills below are by [DemandSense](h
 | [Creative Decay Watchlist](creative-decay-watchlist) | Ads whose CTR has slid for weeks, and whether the ad or the campaign is the cause |
 | [Video Quality Check](video-quality-check) | Video campaigns ranked by completion and cost per completed view |
 | [Pausing Low-Performing Ads](pausing-low-performing-ads) | The best ad in a campaign and the ones worth stopping, with the statistics behind each call |
+| [Cost per retargetable member](cost-per-retargetable-member) | What it costs to add one person to your retargeting audience, and the ad type and objective that do it cheapest, by [AJ Wilcox](https://www.linkedin.com/in/wilcoxaj/), [B2Linked](https://b2linked.com/) |
+| [Landing-page CPC report](landing-page-cpc-report) | What one visit to your site really costs, with ad sets ranked from cheapest to dearest, by [Ivars Krutainis](https://www.linkedin.com/in/krutainis/), [Otter](https://www.otterad.com/) |
+| [LinkedIn Creative Fatigue Report](linkedin-creative-fatigue-report) | Which ads are wearing out, in which ad set, how fast, and whether to pause them, by [Ivan Falco](https://www.linkedin.com/in/ivanfalco/), [Frontal](https://frontal.so/) |
 
 ### Building the account
 
@@ -103,7 +111,7 @@ A skill runs one check against one rule. All skills below are by [DemandSense](h
 
 ## Rules
 
-Every skill and scenario applies the Standard's rules: what LinkedIn does by default, and what to do on top of it. There are 15, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Read them all at [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
+The Standard's rules say what LinkedIn does by default, and what to do on top of it. There are 15, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Each rule's page lists the skills and scenarios that apply it: [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
 
 ## What each skill needs
 
