@@ -1,4 +1,4 @@
-# The B2B AI Standard for LinkedIn® Ads
+# The B2B AI Standard for LinkedIn Ads
 
 Skills and scenarios for running LinkedIn Ads with an AI assistant, written and tested by people who run LinkedIn Ads for a living. Each one reads your exports (or your account through the DemandSense MCP), applies the Standard's rules and tells you what to do. None of them changes anything in your ad account or CRM.
 
