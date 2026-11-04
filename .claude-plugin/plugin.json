@@ -1,5 +1,6 @@
 {
   "name": "linkedin-ads-skills",
+  "displayName": "LinkedIn Ads Skills",
   "version": "1.0.0",
   "description": "Scenarios and skills for LinkedIn Ads, written and tested by practitioners: warm-lead handoff, account audits, targeting reviews, creative, budget, pacing, benchmarks and reporting. Read-only.",
   "author": {
@@ -8,6 +9,9 @@
   },
   "homepage": "https://ds-b2b-ai-standards.vercel.app/collection",
   "repository": "https://github.com/demandsense-labs/linkedin-ads-skills",
+  "documentationUrl": "https://github.com/demandsense-labs/linkedin-ads-skills#readme",
+  "supportUrl": "https://github.com/demandsense-labs/linkedin-ads-skills/issues",
+  "privacyPolicyUrl": "https://github.com/demandsense-labs/linkedin-ads-skills/blob/main/PRIVACY.md",
   "license": "CC-BY-4.0",
   "keywords": [
     "linkedin-ads",
