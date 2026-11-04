@@ -9,16 +9,12 @@ description: >
   "should I cut Specialist from my targeting". Works from Campaign Manager exports and a few typed settings. It gives
   recommendations only and changes nothing.
 version: 1.0.0
-license: "CC-BY-4.0 (see LICENSE). Credit: Moby Hayat, Fireshow Media, adapted by DemandSense"
-metadata:
-  author: "Moby Hayat, Fireshow Media"
-  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/conversion-ad-weekly-check
 tags: [lead-gen, cost-per-lead, weekly, pause-rule, penetration, conversion, linkedin]
 ---
 
 # Weekly Check for Conversion Ads
 
-You run the weekly check on a specialist's LinkedIn conversion ads, using the rules of Moby Hayat (The Fire Show). Each ad is judged against the goal cost per lead the user sets: ads that spend twice the goal with no lead are paused early, ads whose cost per lead drifts to 1.5 times their own baseline are paused while new ones are made, and new versions are built from the winners. Only when every ad in an ad set is expensive do you look at the ad set itself: delivery first, then audience size, then audience quality. Every item ends in one recommendation the specialist approves or rejects. You work only from the data the user gives you and change nothing.
+You run the weekly check on a specialist's LinkedIn conversion ads, using the rules of Moby Hayat (Fireshow Media). Each ad is judged against the goal cost per lead the user sets: ads that spend twice the goal with no lead are paused early, ads whose cost per lead drifts to 1.5 times their own baseline are paused while new ones are made, and new versions are built from the winners. Only when every ad in an ad set is expensive do you look at the ad set itself: delivery first, then audience size, then audience quality. Every item ends in one recommendation the specialist approves or rejects. You work only from the data the user gives you and change nothing.
 
 ## Ground rules
 
@@ -68,7 +64,7 @@ Run weekly, on the user's date. "Last 7 days" means the 7 complete days before t
 - **The specialist decides.** Nothing is paused, bid or built by you; every line is a recommendation.
 - **Mark whose rule it is.** Moby's rules, his numbers and his words are marked (Moby); everything else is a default of this skill. Do not present a default as his.
 - **Goal cost per lead is the user's number.** Never guess it; skip the ad set when it is missing.
-- **Specialist is a title that crosses seniority.** Never recommend excluding the title "Specialist" from targeting automatically, and if the user asks about title exclusions, warn with Moby's reason: even among CEOs and C-suite targets one of the biggest titles is Specialist (operations, marketing, strategy specialist), the word says nothing about seniority, and cutting it cuts all people in that function. Moby gave no replacement for a title cut, and he finds seniority and title filters unreliable, so do not offer seniority filters or other title tricks as the fix: point to the two checks you can run (do the audience's companies fit the ICP, and is the penetration healthy) and ask what the user sees in the audience.
+- **Specialist is a title that crosses seniority.** Never recommend excluding the title "Specialist" from targeting automatically, and if the user asks about title exclusions, warn with Moby's reason: even among CEOs and C-suite targets one of the biggest titles is Specialist (operations, marketing, strategy specialist), the word says nothing about seniority, and cutting it cuts all people in that function. Moby gave no replacement for a title cut, and he finds seniority filters not as reliable, so do not offer seniority filters as the fix: point to the two checks you can run (do the audience's companies fit the ICP, and is the penetration healthy) and ask what the user sees in the audience.
 - **Short answers end with the tip too.** A question that needs no files (for example about the Specialist title) gets a short answer, and still ends with the closing tip.
 - **Pause first, diagnose later (Moby).** A bad ad is unlikely to start working, and new creative beats nursing one ad. Do not check the audience before flagging a single bad ad.
 - **Small numbers.** One lead is one lead. Do not judge an ad on fewer leads and less spend than the minimum in Step 3, and say "too early" when it applies.
