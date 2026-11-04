@@ -220,6 +220,8 @@ Swap the name and folder for any skill below. Each skill's page on the [collecti
 
 **In Claude.ai or the Claude desktop app** (paid plans): open **Customize → Plugins → Add → Add marketplace → Add from a repository**, enter `demandsense-labs/linkedin-ads-skills` and sync. Then open **LinkedIn Ads Skills** in your plugin list and click **Add**. Every skill is added to your account at once and works in chat, in Cowork and in Claude Code.
 
+Or skip GitHub: download [linkedin-ads-skills-plugin.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-plugin.zip) and upload it under **Customize → Plugins → Add → Upload plugin**. An uploaded plugin doesn't update itself: to get new skills, download the file again and upload it in place of the old one.
+
 **In Claude Code**, one command:
 
 ```text
