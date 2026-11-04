@@ -7,8 +7,12 @@ ships except README.md (its links point back into the repository), and LICENSE w
 credit line refers to. In the zipped SKILL.md, the top-level `version` and `tags` keys move under `metadata` as
 strings, which is where the Agent Skills spec puts extra fields; the repository files stay as they are.
 
-linkedin-ads-skills-all.zip holds every skill folder the same way. Claude.ai takes one skill per upload, so that
-file is for unzipping into ~/.claude/skills or another assistant's skills folder."""
+linkedin-ads-skills-all.zip holds every skill folder the same way, for unzipping into ~/.claude/skills or another
+assistant's skills folder.
+
+linkedin-ads-skills-plugin.zip is the whole plugin, for Claude.ai's Customize > Plugins > Add > Upload plugin: the
+plugin manifest and icon from .claude-plugin/ (not the marketplace file), every skill folder as above, and both
+licence files at the root."""
 import pathlib
 import re
 import sys
@@ -69,4 +73,11 @@ for f in folders:
 with zipfile.ZipFile(OUT / "linkedin-ads-skills-all.zip", "w") as z:
     for f in folders:
         write_skill(z, f)
-print(f"{len(folders)} skill zips and linkedin-ads-skills-all.zip in {OUT}")
+with zipfile.ZipFile(OUT / "linkedin-ads-skills-plugin.zip", "w") as z:
+    for name in ["plugin.json", "icon.png"]:
+        add(z, f".claude-plugin/{name}", (ROOT / ".claude-plugin" / name).read_bytes())
+    for name in ["LICENSE", "LICENSE-MIT"]:
+        add(z, name, (ROOT / name).read_bytes())
+    for f in folders:
+        write_skill(z, f)
+print(f"{len(folders)} skill zips, linkedin-ads-skills-all.zip and linkedin-ads-skills-plugin.zip in {OUT}")

@@ -2,6 +2,7 @@
 # Each file always lives at the same address:
 #   https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/<folder>.zip
 #   https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-all.zip
+#   https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-plugin.zip
 # The release is not marked "latest", so numbered releases (v1.0.0 and on) stay the repository's latest release.
 name: Skill files for Claude.ai
 

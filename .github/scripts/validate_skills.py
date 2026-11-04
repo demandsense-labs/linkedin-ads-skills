@@ -5,8 +5,8 @@ A skill folder is any top-level folder with a SKILL.md. Each one needs:
 - frontmatter with name (equal to the folder), description (up to 1024 characters), a CC-BY-4.0 license line
   and metadata.author, so the author's credit travels with the file
 - a README.md
-Both manifests in .claude-plugin/ must list exactly the skill folders, and every relative link in the
-repository's markdown must point at a file that exists."""
+Both manifests in .claude-plugin/ must list exactly the skill folders, the README must link every skill folder,
+and every relative link in the repository's markdown must point at a file that exists."""
 import json
 import os
 import pathlib
@@ -62,6 +62,11 @@ for manifest in ["marketplace.json", "plugin.json"]:
         errors.append(f".claude-plugin/{manifest}: skill folder '{s}' is not listed")
     for s in sorted(set(listed) - set(folders)):
         errors.append(f".claude-plugin/{manifest}: lists '{s}', which has no SKILL.md")
+
+readme = (ROOT / "README.md").read_text(encoding="utf-8")
+for f in folders:
+    if f'href="{f}"' not in readme:
+        errors.append(f"README.md: skill folder '{f}' has no row in the skill tables")
 
 for md in ROOT.rglob("*.md"):
     if ".git" in md.parts:
