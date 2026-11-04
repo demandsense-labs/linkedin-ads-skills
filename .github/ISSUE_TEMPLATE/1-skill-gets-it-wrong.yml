@@ -1,0 +1,35 @@
+name: A skill gets something wrong
+description: A skill or scenario gave advice, a number or a reading you think is wrong.
+labels: ["skill-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the work. If testing shows you're right, the skill is fixed and you're credited as a contributor.
+        Please leave out client names, account IDs and anything you can't share publicly.
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill or scenario
+      description: The folder name, for example `warm-lead-handoff`.
+    validations:
+      required: true
+  - type: textarea
+    id: what-it-said
+    attributes:
+      label: What it said
+      description: The part of the answer you disagree with. A quote or a screenshot is best.
+    validations:
+      required: true
+  - type: textarea
+    id: what-it-should-say
+    attributes:
+      label: What it should say, and why
+      description: What you'd do instead, and what you've seen that backs it up.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: What you gave it
+      description: Which exports or data, the assistant you used (Claude Code, Claude, another one) and the prompt.
