@@ -9,10 +9,6 @@ description: >
   cheapest", "did my bid change improve CPRM". Works from the ad-level Ad Performance export. It gives
   recommendations only.
 version: 1.0.0
-license: "CC-BY-4.0 (see LICENSE). Credit: AJ Wilcox, B2Linked, adapted by DemandSense"
-metadata:
-  author: "AJ Wilcox, B2Linked"
-  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/cost-per-retargetable-member
 tags: [cprm, retargeting, cold, video, thought-leader, audience-building, linkedin]
 ---
 
@@ -60,7 +56,7 @@ Do not count organic or viral actions. These are event counts, not unique member
 - **Volume bar:** at least 100 of spend per creative before trusting it. Below it, show the CPRM but label it "not enough spend" and keep it out of any ranking, best or worst call.
 - A poor video or document CPRM may mean the wrong objective is set or the bid is too high for the audience; a poor static CPRM may mean the bid is too high. State these as questions for the user (for example: is the objective video views? what is the bid?), not as causes. The author's playbook gives ideas to test, not rules: document ads are often tried on the website visits objective, where all the engagers can be retargeted and most engagements come free; video ads run on video views or website visits; webinars and guides run on website visits when possible, generally the cheapest way to pay for traffic.
 
-**Step 5. History and changes.** If the user gave previous months, show CPRM by combination by month and the change. For each change event, compare CPRM for the same ad or ad set over the period before the event (as long as the period after, up to 30 days) with the period since the event, using the daily rows. Call the result "too early" if fewer than 14 days or less than 100 of spend sit after the event, or if another change landed in the same window, and name that change. Never say a change caused the movement; say what moved and ask what else changed. Add any event the user mentions to the log.
+**Step 5. History and changes.** If the user gave previous months, show CPRM by combination by month and the change. For each change event, compare CPRM for the same ad or ad set over the period before the event (as long as the period after, up to 30 days) with the period since the event, using the daily rows. Call the result "too early" if less than 100 of spend sits after the event, or if another change landed in the same window, and name that change. Never say a change caused the movement; say what moved and ask what else changed. Add any event the user mentions to the log.
 
 **The author's funnel, for reading the results (from his video "What Works on LinkedIn Ads in 2026?").** Stage 1: personal thought leader ads on the engagement objective, because people engage with people more than with companies: videos of 30 to 40 seconds that give value, retargeting the people who watched at least 50 percent in stage 2, and for text posts retargeting the engagers. Stage 2: company posts with deeper education (documents, longer videos, webinars, ungated text), to move the rapport from the employee to the brand; their engagers are retargeted in stage 3. Stage 3: message ads and single image ads that invite the person to a demo or consultation, after they have engaged with the ads at least twice. He advises excluding the current stage's audience in the other stages' ads so people graduate down the funnel instead of sitting in several stages at once: when a result looks odd, ask whether those exclusions are in place. Use this as context for questions and tests, not as a rule.
 
