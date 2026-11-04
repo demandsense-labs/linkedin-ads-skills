@@ -233,6 +233,16 @@ On Claude Code older than 2.1.275, add the marketplace first:
 
 Then ask for what you need ("build this week's warm-lead handoff from these files") or call a skill by name, for example `/linkedin-ads-skills:account-health-check`.
 
+<a name="other-assistants"></a>
+
+**Codex, Cursor, Gemini CLI, GitHub Copilot and other assistants** read the same `SKILL.md` files. Install with Vercel's [skills](https://github.com/vercel-labs/skills) CLI (Node.js 22.20 or later), from your project folder:
+
+```bash
+npx skills add demandsense-labs/linkedin-ads-skills
+```
+
+It asks which skills to install and for which assistants. For one skill, add `--skill account-health-check`; to install for all your projects, add `-g`. The CLI sends anonymous usage data to Vercel unless you set `DISABLE_TELEMETRY=1`.
+
 **Just one skill, by hand:** copy its folder into `~/.claude/skills/` (on Windows, `C:\Users\<you>\.claude\skills\`), so the path ends in `account-health-check/SKILL.md`. In the Claude apps, zip the folder and upload it as a custom skill.
 
 <a name="rules"></a>

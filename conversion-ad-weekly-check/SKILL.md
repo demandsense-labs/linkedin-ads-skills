@@ -9,6 +9,10 @@ description: >
   "should I cut Specialist from my targeting". Works from Campaign Manager exports and a few typed settings. It gives
   recommendations only and changes nothing.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: Moby Hayat, Fireshow Media, adapted by DemandSense"
+metadata:
+  author: "Moby Hayat, Fireshow Media"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/conversion-ad-weekly-check
 tags: [lead-gen, cost-per-lead, weekly, pause-rule, penetration, conversion, linkedin]
 ---
 

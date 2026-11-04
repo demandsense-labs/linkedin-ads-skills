@@ -9,6 +9,10 @@ description: >
   tool, for example Cornersight), the LinkedIn Campaign Manager Companies tab export and a website visitor export. It works
   at company level, gives recommendations only and sends nothing.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: Alfredo Talib, Cornersight, adapted by DemandSense"
+metadata:
+  author: "Alfredo Talib, Cornersight"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/social-signals-to-pipeline
 tags: [social-signals, linkedin, engagers, sales-review, nurture, icp, abm]
 ---
 

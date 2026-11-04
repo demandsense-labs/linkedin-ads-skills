@@ -1,0 +1,80 @@
+"""Checks every skill folder and the plugin manifests. Runs in CI on each push and pull request, and locally:
+python .github/scripts/validate_skills.py
+
+A skill folder is any top-level folder with a SKILL.md. Each one needs:
+- frontmatter with name (equal to the folder), description (up to 1024 characters), a CC-BY-4.0 license line
+  and metadata.author, so the author's credit travels with the file
+- a README.md
+Both manifests in .claude-plugin/ must list exactly the skill folders, and every relative link in the
+repository's markdown must point at a file that exists."""
+import json
+import os
+import pathlib
+import re
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parents[2]
+errors = []
+
+
+def frontmatter(text):
+    m = re.match(r"---\n(.*?)\n---\n", text.replace("\r\n", "\n"), re.S)
+    return m.group(1) if m else None
+
+
+def field(fm, key):
+    m = re.search(rf"^{key}:[ \t]*(.*?)(?=^\S[^\n]*:|\Z)", fm, re.M | re.S)
+    if not m:
+        return None
+    return " ".join(m.group(1).replace(">-", " ").replace(">", " ").replace("|", " ").split()).strip("\"'")
+
+
+folders = sorted(p.parent.name for p in ROOT.glob("*/SKILL.md"))
+for f in folders:
+    fm = frontmatter((ROOT / f / "SKILL.md").read_text(encoding="utf-8"))
+    if fm is None:
+        errors.append(f"{f}/SKILL.md: no frontmatter between --- lines")
+        continue
+    name, desc, lic = field(fm, "name"), field(fm, "description"), field(fm, "license")
+    if name != f:
+        errors.append(f"{f}/SKILL.md: name is '{name}', must be the folder name '{f}'")
+    if not desc:
+        errors.append(f"{f}/SKILL.md: description is missing")
+    elif len(desc) > 1024:
+        errors.append(f"{f}/SKILL.md: description is {len(desc)} characters, the limit is 1024")
+    if not lic or "CC-BY-4.0" not in lic:
+        errors.append(f"{f}/SKILL.md: license line with CC-BY-4.0 and the credit is missing")
+    if not re.search(r"^metadata:\n(?:[ \t]+.*\n)*?[ \t]+author:", fm + "\n", re.M):
+        errors.append(f"{f}/SKILL.md: metadata.author is missing")
+    if not (ROOT / f / "README.md").exists():
+        errors.append(f"{f}: README.md is missing")
+
+for manifest in ["marketplace.json", "plugin.json"]:
+    path = ROOT / ".claude-plugin" / manifest
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        errors.append(f".claude-plugin/{manifest}: {e}")
+        continue
+    listed = data["plugins"][0].get("skills", []) if manifest == "marketplace.json" else data.get("skills", [])
+    listed = sorted(s.strip("./") for s in listed)
+    for s in sorted(set(folders) - set(listed)):
+        errors.append(f".claude-plugin/{manifest}: skill folder '{s}' is not listed")
+    for s in sorted(set(listed) - set(folders)):
+        errors.append(f".claude-plugin/{manifest}: lists '{s}', which has no SKILL.md")
+
+for md in ROOT.rglob("*.md"):
+    if ".git" in md.parts:
+        continue
+    text = md.read_text(encoding="utf-8")
+    for url in re.findall(r"\]\(([^)\s]+)\)", text) + re.findall(r'(?:href|src)="([^"]+)"', text):
+        path = url.split("#")[0]
+        if not path or re.match(r"[a-z]+:", path):
+            continue
+        if not os.path.exists(os.path.normpath(os.path.join(md.parent, path))):  # normalised: "x/../" can overrun Windows' path limit
+            errors.append(f"{md.relative_to(ROOT).as_posix()}: link to '{url}' points at nothing")
+
+for e in errors:
+    print("::error::" + e)
+print(f"{len(folders)} skills checked, {len(errors)} problem(s)")
+sys.exit(1 if errors else 0)

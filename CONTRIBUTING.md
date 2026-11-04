@@ -20,7 +20,13 @@ Pull requests are welcome for typos, broken links and install problems. For a ch
 
 ## How a skill is laid out
 
-Each skill is one folder with a `SKILL.md`. Its frontmatter carries the `name`, a `description` that says when to use it, the `license` with the credit line, and `metadata.author`. The plugin manifest lives in `.claude-plugin/`.
+Each skill is one folder with a `SKILL.md`. Its frontmatter carries the `name`, a `description` that says when to use it, the `license` with the credit line, and `metadata.author`. Keep the `license` and `metadata` lines when you replace a `SKILL.md`: they are how the author's credit travels with the file. The plugin manifests live in `.claude-plugin/`, and both list every skill folder.
+
+A check runs on every push and pull request: names, descriptions, credit lines, both manifests and every relative link. Run it yourself before you push:
+
+```bash
+python .github/scripts/validate_skills.py
+```
 
 ## Licence
 

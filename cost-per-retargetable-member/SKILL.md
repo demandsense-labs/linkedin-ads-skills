@@ -9,6 +9,10 @@ description: >
   cheapest", "did my bid change improve CPRM". Works from the ad-level Ad Performance export. It gives
   recommendations only.
 version: 1.0.0
+license: "CC-BY-4.0 (see LICENSE). Credit: AJ Wilcox, B2Linked, adapted by DemandSense"
+metadata:
+  author: "AJ Wilcox, B2Linked"
+  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/cost-per-retargetable-member
 tags: [cprm, retargeting, cold, video, thought-leader, audience-building, linkedin]
 ---
 
