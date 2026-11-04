@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Reach and frequency</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-abm-account-penetration"><img src="../assets/covers/linkedin-abm-account-penetration.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-abm-account-penetration"><img src="../assets/covers/linkedin-abm-account-penetration.svg" width="96" height="96" alt="LinkedIn ABM Account Penetration"></a>
 
 # LinkedIn ABM Account Penetration
 

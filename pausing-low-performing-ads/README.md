@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/pausing-low-performing-ads"><img src="../assets/covers/pausing-low-performing-ads.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/pausing-low-performing-ads"><img src="../assets/covers/pausing-low-performing-ads.svg" width="96" height="96" alt="Pausing Low-Performing Ads"></a>
 
 # Pausing Low-Performing Ads
 

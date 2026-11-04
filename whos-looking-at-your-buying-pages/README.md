@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · From signal to sales</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/whos-looking-at-your-buying-pages"><img src="../assets/covers/whos-looking-at-your-buying-pages.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/whos-looking-at-your-buying-pages"><img src="../assets/covers/whos-looking-at-your-buying-pages.svg" width="96" height="96" alt="Who's Looking at Your Buying Pages"></a>
 
 # Who's Looking at Your Buying Pages
 

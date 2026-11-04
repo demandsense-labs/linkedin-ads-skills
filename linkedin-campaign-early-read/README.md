@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/linkedin-campaign-early-read"><img src="../assets/covers/linkedin-campaign-early-read.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/linkedin-campaign-early-read"><img src="../assets/covers/linkedin-campaign-early-read.svg" width="96" height="96" alt="LinkedIn Campaign Early Read"></a>
 
 # LinkedIn Campaign Early Read
 

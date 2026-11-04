@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-creative-performance"><img src="../assets/covers/linkedin-creative-performance.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-creative-performance"><img src="../assets/covers/linkedin-creative-performance.svg" width="96" height="96" alt="LinkedIn Creative Performance"></a>
 
 # LinkedIn Creative Performance
 

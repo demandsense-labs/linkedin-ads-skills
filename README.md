@@ -8,7 +8,7 @@
 
 <p align="center"><b><a href="https://ds-b2b-ai-standards.vercel.app/collection">Browse the collection</a></b> · <a href="#install">Install in Claude Code</a> · <a href="#run">Run one in a chat</a> · <a href="https://ds-b2b-ai-standards.vercel.app/rules">Rules</a> · <a href="#licence">Licence</a></p>
 
-Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt=""></a> [DemandSense](https://demandsense.com).
+Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com).
 
 <a name="scenarios"></a>
 
@@ -18,39 +18,39 @@ A whole job, start to finish. Each one is the routine its author runs on client 
 
 <table>
 <tr>
-<td width="56"><a href="warm-lead-handoff"><img src="assets/covers/warm-lead-handoff.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="warm-lead-handoff"><img src="assets/covers/warm-lead-handoff.svg" width="48" height="48" alt="Warm-lead handoff"></a></td>
 <td><a href="warm-lead-handoff"><b>Warm-lead handoff</b></a><br>A short list of who sales should call this week, with one handoff line per account<br><br><a href="https://www.linkedin.com/in/justin-rowe-4043339b/"><img src="assets/authors/justin-rowe.png" width="44" height="44" align="left" alt="Justin Rowe"></a>&nbsp; <b>Justin Rowe</b><br>&nbsp; <sub>Impactable</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="monthly-targeting-review"><img src="assets/covers/monthly-targeting-review.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="monthly-targeting-review"><img src="assets/covers/monthly-targeting-review.svg" width="48" height="48" alt="Targeting vs who actually buys"></a></td>
 <td><a href="monthly-targeting-review"><b>Targeting vs who actually buys</b></a><br>Who each campaign paid to reach next to the people on your deals, and where to move budget<br><br><a href="https://www.linkedin.com/in/b2b-marketing-expert/"><img src="assets/authors/george-coudounaris.png" width="44" height="44" align="left" alt="George Coudounaris"></a>&nbsp; <b>George Coudounaris</b><br>&nbsp; <sub>The B2B Playbook</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="company-account-routing"><img src="assets/covers/company-account-routing.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="company-account-routing"><img src="assets/covers/company-account-routing.svg" width="48" height="48" alt="Company-level account routing"></a></td>
 <td><a href="company-account-routing"><b>Company-level account routing</b></a><br>Which companies take most of the impressions, which are underserved, and which to move into their own audience<br><br><a href="https://www.linkedin.com/in/joshua-stout/"><img src="assets/authors/joshua-stout.png" width="44" height="44" align="left" alt="Joshua Stout"></a>&nbsp; <b>Joshua Stout</b><br>&nbsp; <sub>Beyond The Funnel</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="audience-fit-check"><img src="assets/covers/audience-fit-check.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="audience-fit-check"><img src="assets/covers/audience-fit-check.svg" width="48" height="48" alt="LinkedIn fit gate + daily fit check"></a></td>
 <td><a href="audience-fit-check"><b>LinkedIn fit gate + daily fit check</b></a><br>A pass, one-more-week or rebuild call on a prospecting campaign, graded by the companies it reached against your ICP<br><br><a href="https://www.linkedin.com/in/jonathan-belliveau/"><img src="assets/authors/jonathan-belliveau.png" width="44" height="44" align="left" alt="Jonathan Belliveau"></a>&nbsp; <b>Jonathan Belliveau</b><br>&nbsp; <sub>GrowthMotiv</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="account-audit-by-cadence"><img src="assets/covers/account-audit-by-cadence.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="account-audit-by-cadence"><img src="assets/covers/account-audit-by-cadence.svg" width="48" height="48" alt="Account audit by cadence"></a></td>
 <td><a href="account-audit-by-cadence"><b>Account audit by cadence</b></a><br>Eight account checks on a schedule: what to fix today, this week and this month<br><br><a href="https://www.linkedin.com/in/roman-slobodzianyk-b67549140/"><img src="assets/authors/roman-slobodzianyk.png" width="44" height="44" align="left" alt="Roman Slobodzianyk"></a>&nbsp; <b>Roman Slobodzianyk</b><br>&nbsp; <sub>Impactable</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="signal-list-routine"><img src="assets/covers/signal-list-routine.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="signal-list-routine"><img src="assets/covers/signal-list-routine.svg" width="48" height="48" alt="Signal loop"></a></td>
 <td><a href="signal-list-routine"><b>Signal loop</b></a><br>Which named target companies to write to this week, and why now<br><br><a href="https://www.linkedin.com/in/bgdn/"><img src="assets/authors/bogdan-liutic.png" width="44" height="44" align="left" alt="Bogdan Liutic"></a>&nbsp; <b>Bogdan Liutic</b><br>&nbsp; <sub>CR8</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="social-signals-to-pipeline"><img src="assets/covers/social-signals-to-pipeline.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="social-signals-to-pipeline"><img src="assets/covers/social-signals-to-pipeline.svg" width="48" height="48" alt="Turn social signals into pipeline"></a></td>
 <td><a href="social-signals-to-pipeline"><b>Turn social signals into pipeline</b></a><br>Two company lists from engagement on LinkedIn posts: one for sales review, one for nurture<br><br><a href="https://www.linkedin.com/in/alfredo-iscandar-talib/"><img src="assets/authors/alfredo-talib.png" width="44" height="44" align="left" alt="Alfredo Talib"></a>&nbsp; <b>Alfredo Talib</b><br>&nbsp; <sub>Cornersight</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="conversion-ad-weekly-check"><img src="assets/covers/conversion-ad-weekly-check.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="conversion-ad-weekly-check"><img src="assets/covers/conversion-ad-weekly-check.svg" width="48" height="48" alt="Weekly check for conversion campaigns"></a></td>
 <td><a href="conversion-ad-weekly-check"><b>Weekly check for conversion campaigns</b></a><br>Lead Gen Form and Message ads judged against your goal cost per lead: what to pause and which winners to copy<br><br><a href="https://www.linkedin.com/in/moby/"><img src="assets/authors/moby-hayat.png" width="44" height="44" align="left" alt="Moby Hayat"></a>&nbsp; <b>Moby Hayat</b><br>&nbsp; <sub>Fireshow Media</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-campaign-early-read"><img src="assets/covers/linkedin-campaign-early-read.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-campaign-early-read"><img src="assets/covers/linkedin-campaign-early-read.svg" width="48" height="48" alt="LinkedIn Campaign Early Read"></a></td>
 <td><a href="linkedin-campaign-early-read"><b>LinkedIn Campaign Early Read</b></a><br>A first read 7 to 14 days after launch: delivery, who it reaches, who engages, and the accounts to act on now<br><br><a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="44" height="44" align="left" alt="DemandSense"></a>&nbsp; <b>DemandSense</b><br>&nbsp; <sub>&nbsp;</sub></td>
 </tr>
 </table>
@@ -59,37 +59,37 @@ A whole job, start to finish. Each one is the routine its author runs on client 
 
 ## <img src="assets/dot.svg" width="12" height="12" alt=""> Skills
 
-One check each. By <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt=""></a> [DemandSense](https://demandsense.com) unless an author is named.
+One check each. By <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com) unless an author is named.
 
 ### Ads and creative
 
 <table>
 <tr>
-<td width="56"><a href="cost-per-retargetable-member"><img src="assets/covers/cost-per-retargetable-member.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="cost-per-retargetable-member"><img src="assets/covers/cost-per-retargetable-member.svg" width="48" height="48" alt="Cost per retargetable member"></a></td>
 <td><a href="cost-per-retargetable-member"><b>Cost per retargetable member</b></a><br>What it costs to add one person to your retargeting audience, and the ad type and objective that do it cheapest<br><br><a href="https://www.linkedin.com/in/wilcoxaj/"><img src="assets/authors/aj-wilcox.png" width="44" height="44" align="left" alt="AJ Wilcox"></a>&nbsp; <b>AJ Wilcox</b><br>&nbsp; <sub>B2Linked</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="landing-page-cpc-report"><img src="assets/covers/landing-page-cpc-report.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="landing-page-cpc-report"><img src="assets/covers/landing-page-cpc-report.svg" width="48" height="48" alt="Landing-page CPC report"></a></td>
 <td><a href="landing-page-cpc-report"><b>Landing-page CPC report</b></a><br>What one visit to your site really costs, with ad sets ranked from cheapest to dearest<br><br><a href="https://www.linkedin.com/in/krutainis/"><img src="assets/authors/ivars-krutainis.png" width="44" height="44" align="left" alt="Ivars Krutainis"></a>&nbsp; <b>Ivars Krutainis</b><br>&nbsp; <sub>Otter</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-creative-fatigue-report"><img src="assets/covers/linkedin-creative-fatigue-report.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-creative-fatigue-report"><img src="assets/covers/linkedin-creative-fatigue-report.svg" width="48" height="48" alt="LinkedIn Creative Fatigue Report"></a></td>
 <td><a href="linkedin-creative-fatigue-report"><b>LinkedIn Creative Fatigue Report</b></a><br>Which ads are wearing out, in which ad set, how fast, and whether to pause them<br><br><a href="https://www.linkedin.com/in/ivanfalco/"><img src="assets/authors/ivan-falco.png" width="44" height="44" align="left" alt="Ivan Falco"></a>&nbsp; <b>Ivan Falco</b><br>&nbsp; <sub>Frontal</sub></td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-creative-performance"><img src="assets/covers/linkedin-creative-performance.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-creative-performance"><img src="assets/covers/linkedin-creative-performance.svg" width="48" height="48" alt="LinkedIn Creative Performance"></a></td>
 <td><a href="linkedin-creative-performance"><b>LinkedIn Creative Performance</b></a><br>Ads ranked by the measure that fits their job, with pause candidates</td>
 </tr>
 <tr>
-<td width="56"><a href="creative-decay-watchlist"><img src="assets/covers/creative-decay-watchlist.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="creative-decay-watchlist"><img src="assets/covers/creative-decay-watchlist.svg" width="48" height="48" alt="Creative Decay Watchlist"></a></td>
 <td><a href="creative-decay-watchlist"><b>Creative Decay Watchlist</b></a><br>Ads whose CTR has slid for weeks, and whether the ad or the campaign is the cause</td>
 </tr>
 <tr>
-<td width="56"><a href="video-quality-check"><img src="assets/covers/video-quality-check.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="video-quality-check"><img src="assets/covers/video-quality-check.svg" width="48" height="48" alt="Video Quality Check"></a></td>
 <td><a href="video-quality-check"><b>Video Quality Check</b></a><br>Video campaigns ranked by completion and cost per completed view</td>
 </tr>
 <tr>
-<td width="56"><a href="pausing-low-performing-ads"><img src="assets/covers/pausing-low-performing-ads.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="pausing-low-performing-ads"><img src="assets/covers/pausing-low-performing-ads.svg" width="48" height="48" alt="Pausing Low-Performing Ads"></a></td>
 <td><a href="pausing-low-performing-ads"><b>Pausing Low-Performing Ads</b></a><br>The best ad in a campaign and the ones worth stopping, with the statistics behind each call</td>
 </tr>
 </table>
@@ -98,19 +98,19 @@ One check each. By <a href="https://demandsense.com"><img src="assets/authors/de
 
 <table>
 <tr>
-<td width="56"><a href="no-deal-warm-leads-finder"><img src="assets/covers/no-deal-warm-leads-finder.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="no-deal-warm-leads-finder"><img src="assets/covers/no-deal-warm-leads-finder.svg" width="48" height="48" alt="No-Deal Warm Leads Finder"></a></td>
 <td><a href="no-deal-warm-leads-finder"><b>No-Deal Warm Leads Finder</b></a><br>Engaged companies that are not customers and have no open deal, ranked in tiers</td>
 </tr>
 <tr>
-<td width="56"><a href="whos-looking-at-your-buying-pages"><img src="assets/covers/whos-looking-at-your-buying-pages.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="whos-looking-at-your-buying-pages"><img src="assets/covers/whos-looking-at-your-buying-pages.svg" width="48" height="48" alt="Who's Looking at Your Buying Pages"></a></td>
 <td><a href="whos-looking-at-your-buying-pages"><b>Who's Looking at Your Buying Pages</b></a><br>Recent visitors to pricing, demo, contact and trial pages, checked against the CRM</td>
 </tr>
 <tr>
-<td width="56"><a href="account-engagement"><img src="assets/covers/account-engagement.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="account-engagement"><img src="assets/covers/account-engagement.svg" width="48" height="48" alt="Account Engagement"></a></td>
 <td><a href="account-engagement"><b>Account Engagement</b></a><br>Engaged companies tied to pipeline, and the ones missing from the CRM</td>
 </tr>
 <tr>
-<td width="56"><a href="crm-data-health-check"><img src="assets/covers/crm-data-health-check.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="crm-data-health-check"><img src="assets/covers/crm-data-health-check.svg" width="48" height="48" alt="CRM Data Health Check"></a></td>
 <td><a href="crm-data-health-check"><b>CRM Data Health Check</b></a><br>Whether your pipeline data can be trusted: gaps, deal hygiene, win rate by source</td>
 </tr>
 </table>
@@ -119,15 +119,15 @@ One check each. By <a href="https://demandsense.com"><img src="assets/authors/de
 
 <table>
 <tr>
-<td width="56"><a href="silent-watchers-finder"><img src="assets/covers/silent-watchers-finder.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="silent-watchers-finder"><img src="assets/covers/silent-watchers-finder.svg" width="48" height="48" alt="Silent Watchers Finder"></a></td>
 <td><a href="silent-watchers-finder"><b>Silent Watchers Finder</b></a><br>Companies that saw your ads for three months and never engaged</td>
 </tr>
 <tr>
-<td width="56"><a href="capping-recommendation"><img src="assets/covers/capping-recommendation.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="capping-recommendation"><img src="assets/covers/capping-recommendation.svg" width="48" height="48" alt="Capping Recommendation"></a></td>
 <td><a href="capping-recommendation"><b>Capping Recommendation</b></a><br>Impression caps and an exclusion list to stop overexposure</td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-abm-account-penetration"><img src="assets/covers/linkedin-abm-account-penetration.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-abm-account-penetration"><img src="assets/covers/linkedin-abm-account-penetration.svg" width="48" height="48" alt="LinkedIn ABM Account Penetration"></a></td>
 <td><a href="linkedin-abm-account-penetration"><b>LinkedIn ABM Account Penetration</b></a><br>Which target accounts engage, at what level, and which show nothing</td>
 </tr>
 </table>
@@ -136,11 +136,11 @@ One check each. By <a href="https://demandsense.com"><img src="assets/authors/de
 
 <table>
 <tr>
-<td width="56"><a href="waste-budget-detection"><img src="assets/covers/waste-budget-detection.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="waste-budget-detection"><img src="assets/covers/waste-budget-detection.svg" width="48" height="48" alt="Waste Budget Detection"></a></td>
 <td><a href="waste-budget-detection"><b>Waste Budget Detection</b></a><br>Campaigns that spent in the last 30 days without producing what they were built for</td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-audience-demographics"><img src="assets/covers/linkedin-audience-demographics.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-audience-demographics"><img src="assets/covers/linkedin-audience-demographics.svg" width="48" height="48" alt="LinkedIn Audience Demographics"></a></td>
 <td><a href="linkedin-audience-demographics"><b>LinkedIn Audience Demographics</b></a><br>Who your ads reach and who responds, by seniority, function, title, industry, size, location</td>
 </tr>
 </table>
@@ -149,55 +149,55 @@ One check each. By <a href="https://demandsense.com"><img src="assets/authors/de
 
 <table>
 <tr>
-<td width="56"><a href="account-health-check"><img src="assets/covers/account-health-check.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="account-health-check"><img src="assets/covers/account-health-check.svg" width="48" height="48" alt="Account Health Check"></a></td>
 <td><a href="account-health-check"><b>Account Health Check</b></a><br>A ranked list of what to fix first in the account</td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-performance-kpis"><img src="assets/covers/linkedin-performance-kpis.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-performance-kpis"><img src="assets/covers/linkedin-performance-kpis.svg" width="48" height="48" alt="LinkedIn Performance KPIs"></a></td>
 <td><a href="linkedin-performance-kpis"><b>LinkedIn Performance KPIs</b></a><br>Spend, CTR, CPC, CPM and cost per lead against the previous period, with pacing</td>
 </tr>
 <tr>
-<td width="56"><a href="pacing-check-against-schedule"><img src="assets/covers/pacing-check-against-schedule.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="pacing-check-against-schedule"><img src="assets/covers/pacing-check-against-schedule.svg" width="48" height="48" alt="Pacing Check Against Schedule"></a></td>
 <td><a href="pacing-check-against-schedule"><b>Pacing Check Against Schedule</b></a><br>Campaigns spending off their daily budget or schedule, and what to do</td>
 </tr>
 <tr>
-<td width="56"><a href="budget-re-allocation"><img src="assets/covers/budget-re-allocation.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="budget-re-allocation"><img src="assets/covers/budget-re-allocation.svg" width="48" height="48" alt="Budget Re-allocation"></a></td>
 <td><a href="budget-re-allocation"><b>Budget Re-allocation</b></a><br>A plan to move budget from ended or paused campaigns to the ones that earn it</td>
 </tr>
 <tr>
-<td width="56"><a href="campaign-group-scoreboard"><img src="assets/covers/campaign-group-scoreboard.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="campaign-group-scoreboard"><img src="assets/covers/campaign-group-scoreboard.svg" width="48" height="48" alt="Campaign Group Scoreboard"></a></td>
 <td><a href="campaign-group-scoreboard"><b>Campaign Group Scoreboard</b></a><br>Campaign groups ranked by efficiency, with the two best campaigns in each</td>
 </tr>
 <tr>
-<td width="56"><a href="weekly-reporting"><img src="assets/covers/weekly-reporting.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="weekly-reporting"><img src="assets/covers/weekly-reporting.svg" width="48" height="48" alt="Weekly Reporting"></a></td>
 <td><a href="weekly-reporting"><b>Weekly Reporting</b></a><br>A weekly breakdown across LinkedIn, Google Ads and Meta, with the main drivers</td>
 </tr>
 <tr>
-<td width="56"><a href="manager-monthly-report"><img src="assets/covers/manager-monthly-report.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="manager-monthly-report"><img src="assets/covers/manager-monthly-report.svg" width="48" height="48" alt="Manager Monthly Report"></a></td>
 <td><a href="manager-monthly-report"><b>Manager Monthly Report</b></a><br>A monthly report: what to optimise, what to stop, how you compare with the market</td>
 </tr>
 <tr>
-<td width="56"><a href="multichannel-performance-rollup"><img src="assets/covers/multichannel-performance-rollup.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="multichannel-performance-rollup"><img src="assets/covers/multichannel-performance-rollup.svg" width="48" height="48" alt="Multichannel Performance Rollup"></a></td>
 <td><a href="multichannel-performance-rollup"><b>Multichannel Performance Rollup</b></a><br>Several ad platforms in one view, with what can and cannot be added together</td>
 </tr>
 <tr>
-<td width="56"><a href="traffic-analysis"><img src="assets/covers/traffic-analysis.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="traffic-analysis"><img src="assets/covers/traffic-analysis.svg" width="48" height="48" alt="Traffic Analysis"></a></td>
 <td><a href="traffic-analysis"><b>Traffic Analysis</b></a><br>Where site traffic comes from, paid traffic by campaign, and a UTM tagging audit</td>
 </tr>
 <tr>
-<td width="56"><a href="ad-hoc-query"><img src="assets/covers/ad-hoc-query.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="ad-hoc-query"><img src="assets/covers/ad-hoc-query.svg" width="48" height="48" alt="Ad-Hoc Query"></a></td>
 <td><a href="ad-hoc-query"><b>Ad-Hoc Query</b></a><br>Answers to open questions: what changed, trends, breakdowns, pacing, pipeline</td>
 </tr>
 <tr>
-<td width="56"><a href="linkedin-benchmark-context"><img src="assets/covers/linkedin-benchmark-context.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="linkedin-benchmark-context"><img src="assets/covers/linkedin-benchmark-context.svg" width="48" height="48" alt="LinkedIn Benchmark Context"></a></td>
 <td><a href="linkedin-benchmark-context"><b>LinkedIn Benchmark Context</b></a><br>Your results against your own history first, then market benchmarks</td>
 </tr>
 <tr>
-<td width="56"><a href="benchmark-comparison"><img src="assets/covers/benchmark-comparison.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="benchmark-comparison"><img src="assets/covers/benchmark-comparison.svg" width="48" height="48" alt="Benchmark Comparison"></a></td>
 <td><a href="benchmark-comparison"><b>Benchmark Comparison</b></a><br>One metric placed inside a published benchmark range for your peer group</td>
 </tr>
 <tr>
-<td width="56"><a href="market-benchmark-comparison"><img src="assets/covers/market-benchmark-comparison.svg" width="48" height="48" alt=""></a></td>
+<td width="56"><a href="market-benchmark-comparison"><img src="assets/covers/market-benchmark-comparison.svg" width="48" height="48" alt="Market Benchmark Comparison"></a></td>
 <td><a href="market-benchmark-comparison"><b>Market Benchmark Comparison</b></a><br>Campaign groups compared with a published market benchmark</td>
 </tr>
 </table>

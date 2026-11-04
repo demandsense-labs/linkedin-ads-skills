@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/creative-decay-watchlist"><img src="../assets/covers/creative-decay-watchlist.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/creative-decay-watchlist"><img src="../assets/covers/creative-decay-watchlist.svg" width="96" height="96" alt="Creative Decay Watchlist"></a>
 
 # Creative Decay Watchlist
 

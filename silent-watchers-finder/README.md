@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Reach and frequency</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/silent-watchers-finder"><img src="../assets/covers/silent-watchers-finder.svg" width="96" height="96" alt=""></a>
+<a href="https://ds-b2b-ai-standards.vercel.app/skills/silent-watchers-finder"><img src="../assets/covers/silent-watchers-finder.svg" width="96" height="96" alt="Silent Watchers Finder"></a>
 
 # Silent Watchers Finder
 
