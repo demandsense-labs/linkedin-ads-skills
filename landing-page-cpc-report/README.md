@@ -22,6 +22,8 @@ Load the Landing-page CPC report skill from https://github.com/demandsense-labs/
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [landing-page-cpc-report.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/landing-page-cpc-report.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"landing page CPC"*:

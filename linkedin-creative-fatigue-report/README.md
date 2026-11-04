@@ -22,6 +22,8 @@ Load the LinkedIn Creative Fatigue Report skill from https://github.com/demandse
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [linkedin-creative-fatigue-report.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-creative-fatigue-report.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"which ads are fatigued"*:

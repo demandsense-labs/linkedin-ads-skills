@@ -22,6 +22,8 @@ Load the Turn social signals into pipeline scenario from https://github.com/dema
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [social-signals-to-pipeline.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/social-signals-to-pipeline.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"who engaged with our competitor's post and is also on our site"*:

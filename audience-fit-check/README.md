@@ -22,6 +22,8 @@ Load the LinkedIn fit gate + daily fit check scenario from https://github.com/de
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [audience-fit-check.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/audience-fit-check.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"grade my audience"*:

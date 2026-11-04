@@ -1,0 +1,50 @@
+# One ZIP per skill for Claude.ai, rebuilt on every change to main and kept on the release "skill-files".
+# Each file always lives at the same address:
+#   https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/<folder>.zip
+#   https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-all.zip
+# The release is not marked "latest", so numbered releases (v1.0.0 and on) stay the repository's latest release.
+name: Skill files for Claude.ai
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skill-files
+  cancel-in-progress: false
+
+jobs:
+  zips:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: skill-files
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the skills first
+        run: python .github/scripts/validate_skills.py
+      - name: Build the ZIPs
+        run: python .github/scripts/build_skill_zips.py dist
+      - name: Point the tag at this commit
+        run: |
+          git tag -f "$TAG" "$GITHUB_SHA"
+          git push -f origin "refs/tags/$TAG"
+      - name: Create the release once
+        run: |
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --verify-tag --latest=false \
+            --title "Skill files for Claude.ai" \
+            --notes "One ZIP per skill, rebuilt from main on every change. Upload a single skill's ZIP in Claude.ai under Customize > Skills > Upload a skill. linkedin-ads-skills-all.zip holds every skill, for unzipping into ~/.claude/skills or another assistant's skills folder."
+      - name: Upload, replacing the old files
+        run: gh release upload "$TAG" dist/*.zip --clobber
+      - name: Remove files of skills that no longer exist
+        run: |
+          for a in $(gh release view "$TAG" --json assets --jq '.assets[].name'); do
+            [ -f "dist/$a" ] || gh release delete-asset "$TAG" "$a" --yes
+          done

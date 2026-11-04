@@ -22,6 +22,8 @@ Load the Ad-Hoc Query skill from https://github.com/demandsense-labs/linkedin-ad
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [ad-hoc-query.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/ad-hoc-query.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"how did we do last week"*:

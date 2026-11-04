@@ -22,6 +22,8 @@ Load the Multichannel Performance Rollup skill from https://github.com/demandsen
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [multichannel-performance-rollup.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/multichannel-performance-rollup.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"total ad spend across channels"*:

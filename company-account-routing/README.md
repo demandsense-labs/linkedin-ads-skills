@@ -22,6 +22,8 @@ Load the Company-level account routing scenario from https://github.com/demandse
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [company-account-routing.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/company-account-routing.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"account coverage review"*:

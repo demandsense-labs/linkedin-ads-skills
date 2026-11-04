@@ -243,7 +243,9 @@ npx skills add demandsense-labs/linkedin-ads-skills
 
 It asks which skills to install and for which assistants. For one skill, add `--skill account-health-check`; to install for all your projects, add `-g`. The CLI sends anonymous usage data to Vercel unless you set `DISABLE_TELEMETRY=1`.
 
-**Just one skill, by hand:** copy its folder into `~/.claude/skills/` (on Windows, `C:\Users\<you>\.claude\skills\`), so the path ends in `account-health-check/SKILL.md`. In the Claude apps, zip the folder and upload it as a custom skill.
+**Just one skill, by hand:** copy its folder into `~/.claude/skills/` (on Windows, `C:\Users\<you>\.claude\skills\`), so the path ends in `account-health-check/SKILL.md`.
+
+**In Claude.ai:** every skill comes as a ready ZIP on the [Skill files](https://github.com/demandsense-labs/linkedin-ads-skills/releases/tag/skill-files) release, rebuilt on every change. Download one, for example [account-health-check.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/account-health-check.zip), and upload it under **Customize → Skills → Upload a skill**. Claude.ai takes one skill per upload; [linkedin-ads-skills-all.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-all.zip) has them all, for unzipping into `~/.claude/skills/`.
 
 <a name="rules"></a>
 

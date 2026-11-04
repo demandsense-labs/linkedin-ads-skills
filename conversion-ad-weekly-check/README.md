@@ -22,6 +22,8 @@ Load the Weekly check for conversion campaigns scenario from https://github.com/
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [conversion-ad-weekly-check.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/conversion-ad-weekly-check.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"weekly check for my lead gen campaigns"*:

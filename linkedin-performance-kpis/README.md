@@ -22,6 +22,8 @@ Load the LinkedIn Performance KPIs skill from https://github.com/demandsense-lab
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [linkedin-performance-kpis.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-performance-kpis.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"how did our LinkedIn spend do"*:

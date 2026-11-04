@@ -22,6 +22,8 @@ Load the Traffic Analysis skill from https://github.com/demandsense-labs/linkedi
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [traffic-analysis.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/traffic-analysis.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"where does our traffic come from"*:

@@ -22,6 +22,8 @@ Load the LinkedIn Creative Performance skill from https://github.com/demandsense
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [linkedin-creative-performance.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-creative-performance.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"which LinkedIn ads performed best"*:

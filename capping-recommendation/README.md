@@ -22,6 +22,8 @@ Load the Capping Recommendation skill from https://github.com/demandsense-labs/l
 
 It gives recommendations only and changes nothing in your ad account or CRM.
 
+**To keep it in Claude.ai:** download [capping-recommendation.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/capping-recommendation.zip) and upload it under **Customize → Skills → Upload a skill**.
+
 ## Run it in Claude Code
 
 [Install the collection](../README.md#install), then call it by name or just ask for it, for example *"how often should we show ads to the same companies"*:
