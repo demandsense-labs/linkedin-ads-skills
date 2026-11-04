@@ -1,8 +1,42 @@
-# Warm-Lead Handoff: what to give the assistant
+<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+
+<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff"><img src="../assets/covers/warm-lead-handoff.svg" width="96" height="96" alt=""></a>
+
+# Warm-lead handoff
+
+A short list of who sales should call this week, with one handoff line per account
+
+<a href="https://www.linkedin.com/in/justin-rowe-4043339b/"><img src="../assets/authors/justin-rowe.png" width="44" height="44" align="left" alt="Justin Rowe"></a>&nbsp; <b>Justin Rowe</b><br>&nbsp; <sub>Impactable</sub>
+
+<br clear="left">
+
+**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff](https://ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff)
+
+## Run it in a chat
+
+Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:
+
+```text
+Load the Warm-lead handoff scenario from https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/warm-lead-handoff and run it on the exports I've attached.
+```
+
+It gives recommendations only and changes nothing in your ad account or CRM.
+
+## Run it in Claude Code
+
+[Install the collection](../README.md#install), then call it by name or just ask for it, for example *"warm-lead handoff"*:
+
+```text
+/linkedin-ads-skills:warm-lead-handoff
+```
+
+[`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## What to give the assistant
 
 This skill turns your LinkedIn, website-visitor and CRM data into a short list of accounts that sales should contact, with one line a rep can say out loud. The assistant only reads what you give it, so this page explains which files to prepare. Everything except the account file is optional, but each missing file removes a check, and the assistant will say which.
 
-## How to use it
+### How to use it
 
 1. Add `SKILL.md` to your assistant (a Claude skill, a custom GPT or Gem, or paste it as instructions).
 2. Start a new chat and attach your files in the first message.
@@ -12,7 +46,7 @@ If a file is capped or a source has gone dark, the assistant stops before rankin
 
 The assistant gives recommendations only. It changes nothing in your ad account or CRM.
 
-## The files
+### The files
 
 | File | Needed? | What it holds |
 |---|---|---|
@@ -28,7 +62,7 @@ You do not need to build these exactly. The assistant accepts raw exports (Linke
 
 **Do not rely on JSON if you do not want to.** `config.json` and `manifest.json` can be a table or plain text typed in the chat. JSON is only a tidy way to keep the same settings between runs.
 
-## accounts.csv
+### accounts.csv
 
 One row per company and month. Pull LinkedIn from Campaign Manager (Plan, then Companies; LinkedIn caps the export at 15,000 rows and offers 7, 30, 60, 90 and 180 day windows). Pull website data from your visitor identification tool.
 
@@ -44,7 +78,7 @@ One row per company and month. Pull LinkedIn from Campaign Manager (Plan, then C
 | `pages_read` (optional) | Pages read, separated by `;` |
 | `top_ad` (optional) | The ad that company engaged with most |
 
-## config.json
+### config.json
 
 Your settings. Example:
 
@@ -76,7 +110,7 @@ Your settings. Example:
 
 The ICP (`icp_sizes`, `buyer_functions`) and `own_domains` are required: if either is missing the assistant asks for it before ranking. The agency and competitor lists are optional. The LinkedIn Companies tab has no domains, so a competitor is also matched by its LinkedIn page: the page link (the part after `linkedin.com/company/`) equal to the listed page, or to the first part of a listed domain. A name that only looks similar, or a common word such as Vector, is never removed: it goes to the Confirm fit table as a possible match and stays off the call list until you confirm.
 
-## manifest.json (the pull log)
+### manifest.json (the pull log)
 
 Records what each pull returned, so the assistant can tell when a file is cut off or out of date. Example:
 
@@ -107,7 +141,7 @@ Records what each pull returned, so the assistant can tell when a file is cut of
 
 Without a manifest, the assistant checks row counts against round limits (1,000, 10,000, 15,000) and reads the dates in the files. If you type the account totals from Campaign Manager (paid clicks, paid engagements and organic engagements for each window) and they equal the file totals, a file at a round limit is accepted.
 
-## crm.csv
+### crm.csv
 
 One row per company, from HubSpot, Salesforce, Attio or similar.
 
@@ -122,7 +156,7 @@ One row per company, from HubSpot, Salesforce, Attio or similar.
 
 Routing: customers go to their owner as expansion, open deals to the deal owner, closed-lost to the owner of the lost deal, and new accounts to the SDR queue.
 
-## people.csv (optional)
+### people.csv (optional)
 
 | Column | Meaning |
 |---|---|
@@ -133,7 +167,7 @@ Routing: customers go to their owner as expansion, open deals to the deal owner,
 
 Personal names appear in the answer only if your own visitor tool supplied them and you ask for names in the handoff lines. Without this file, handoff lines lead with signals (sessions, pages, ad engagements) instead of people. Check your privacy policy and your visitor tool's terms before using person-level data.
 
-## leads.csv (optional)
+### leads.csv (optional)
 
 | Column | Meaning |
 |---|---|
@@ -142,12 +176,18 @@ Personal names appear in the answer only if your own visitor tool supplied them 
 | `create_date` | Date of the form fill |
 | `genuine` | `yes` for a real request, `no` for a placeholder or a duplicate event |
 
-## Company checks and web search
+### Company checks and web search
 
 The assistant classifies each remaining company (ICP, customer, competitor, supplier, partner, agency and so on) from the files. If your assistant has web search and a company is still unclear, it may check that company only, cite the source and mark it "web-verified". It never looks people up. Without web search, it marks the company "unclear, please confirm". Either way you confirm every competitor, supplier or partner call.
 
 The cleaning also removes website-visitor "companies" that are really networks: ISPs, hosting and VPN providers, and a "company" with many named people whose job titles cannot belong to one organisation. Names are matched as whole words, so Chartered Accountants is not treated as Charter Communications and an agency called Frontier Marketing is not treated as an ISP. Companies with identical impressions, clicks and engagements (the same person counted at every company on their LinkedIn profile) are removed as shared-profile clusters; near matches, and pairs that repeat identically from month to month, are named as possible patterns, kept in the data and never counted toward priority.
 
-## What you get back
+### What you get back
 
 A cleaning summary (what was removed and why), an Act now list with one handoff line per account, customers engaging (expansion), open deals the signals reached, closed-lost accounts to re-engage, an ad exclusion list, a comparison with the last run if you gave one, up to five recommendations, and what could not be checked. A full list can come as a CSV with a `Client decision` column for you to fill in.
+
+## Credit
+
+The text is under [CC BY 4.0](../LICENSE). When you share or adapt it, credit it like this and say what you changed:
+
+> Warm-lead handoff by Justin Rowe, Impactable, adapted by DemandSense, CC BY 4.0
