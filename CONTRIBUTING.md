@@ -28,6 +28,10 @@ A check runs on every push and pull request: names, descriptions, credit lines, 
 python .github/scripts/validate_skills.py
 ```
 
+## Behaviour
+
+Everyone taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md). Report a problem to [znak@demandsense.com](mailto:znak@demandsense.com).
+
 ## Licence
 
 The text of the skills and scenarios is under [CC BY 4.0](LICENSE), and the code and manifests are under [MIT](LICENSE-MIT). By contributing you agree that your contribution is published under the same licence, credited to you as listed in [AUTHORS.md](AUTHORS.md).
