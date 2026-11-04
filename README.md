@@ -6,7 +6,7 @@
 <a href="#install"><img src="assets/chips/claude-code-plugin.svg" height="26" alt="Claude Code plugin"></a>
 </p>
 
-<p align="center"><b><a href="https://ds-b2b-ai-standards.vercel.app/collection">Browse the collection</a></b> · <a href="#install">Install in Claude Code</a> · <a href="#run">Run one in a chat</a> · <a href="https://ds-b2b-ai-standards.vercel.app/rules">Rules</a> · <a href="#licence">Licence</a></p>
+<p align="center"><b><a href="https://ds-b2b-ai-standards.vercel.app/collection">Browse the collection</a></b> · <a href="#install">Install in Claude</a> · <a href="#run">Run one in a chat</a> · <a href="https://ds-b2b-ai-standards.vercel.app/rules">Rules</a> · <a href="#licence">Licence</a></p>
 
 Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com).
 
@@ -216,9 +216,11 @@ Swap the name and folder for any skill below. Each skill's page on the [collecti
 
 <a name="install"></a>
 
-## <img src="assets/dot.svg" width="12" height="12" alt=""> Install all of them in Claude Code
+## <img src="assets/dot.svg" width="12" height="12" alt=""> Install all of them
 
-One command, inside Claude Code:
+**In Claude.ai or the Claude desktop app** (paid plans): open **Customize → Plugins → Add → Add marketplace → Add from a repository**, enter `demandsense-labs/linkedin-ads-skills` and sync. Then open **LinkedIn Ads Skills** in your plugin list and click **Add**. Every skill is added to your account at once and works in chat, in Cowork and in Claude Code.
+
+**In Claude Code**, one command:
 
 ```text
 /plugin install linkedin-ads-skills --marketplace demandsense-labs/linkedin-ads-skills
@@ -245,7 +247,7 @@ It asks which skills to install and for which assistants. For one skill, add `--
 
 **Just one skill, by hand:** copy its folder into `~/.claude/skills/` (on Windows, `C:\Users\<you>\.claude\skills\`), so the path ends in `account-health-check/SKILL.md`.
 
-**In Claude.ai:** every skill comes as a ready ZIP on the [Skill files](https://github.com/demandsense-labs/linkedin-ads-skills/releases/tag/skill-files) release, rebuilt on every change. Download one, for example [account-health-check.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/account-health-check.zip), and upload it under **Customize → Skills → Upload a skill**. Claude.ai takes one skill per upload; [linkedin-ads-skills-all.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-all.zip) has them all, for unzipping into `~/.claude/skills/`.
+**Just one skill in Claude.ai:** every skill comes as a ready ZIP on the [Skill files](https://github.com/demandsense-labs/linkedin-ads-skills/releases/tag/skill-files) release, rebuilt on every change. Download one, for example [account-health-check.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/account-health-check.zip), and upload it under **Customize → Skills → Add → Upload a skill**. [linkedin-ads-skills-all.zip](https://github.com/demandsense-labs/linkedin-ads-skills/releases/download/skill-files/linkedin-ads-skills-all.zip) has them all, for unzipping into `~/.claude/skills/`.
 
 <a name="rules"></a>
 
