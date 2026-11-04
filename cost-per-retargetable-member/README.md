@@ -6,7 +6,7 @@
 
 What it costs to add one person to your retargeting audience, and the ad type and objective that do it cheapest
 
-<a href="https://www.linkedin.com/in/wilcoxaj/"><img src="../assets/authors/aj-wilcox.png" width="44" height="44" align="left" alt="AJ Wilcox"></a>&nbsp; <b>AJ Wilcox</b><br>&nbsp; <sub>B2Linked</sub>
+<a href="https://www.linkedin.com/in/wilcoxaj/"><img src="../assets/authors/aj-wilcox.png" width="44" height="44" align="left" alt="AJ Wilcox"></a>&nbsp; <b>AJ Wilcox</b><br>&nbsp; <sub>Founder &amp; CEO · B2Linked</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Runs B2Linked.com, a LinkedIn Ads agency and official LinkedIn Marketing Partner. Has run LinkedIn Ads since 2011, authored multiple courses for LinkedIn Learning, and hosts the LinkedIn Ads Show podcast.
+
+[LinkedIn](https://www.linkedin.com/in/wilcoxaj/) · [b2linked.com](https://b2linked.com/) · [All authors](../AUTHORS.md#aj-wilcox)
 
 ## Credit
 

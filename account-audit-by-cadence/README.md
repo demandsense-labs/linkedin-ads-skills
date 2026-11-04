@@ -6,7 +6,7 @@
 
 Eight account checks on a schedule: what to fix today, this week and this month
 
-<a href="https://www.linkedin.com/in/roman-slobodzianyk-b67549140/"><img src="../assets/authors/roman-slobodzianyk.png" width="44" height="44" align="left" alt="Roman Slobodzianyk"></a>&nbsp; <b>Roman Slobodzianyk</b><br>&nbsp; <sub>Impactable</sub>
+<a href="https://www.linkedin.com/in/roman-slobodzianyk-b67549140/"><img src="../assets/authors/roman-slobodzianyk.png" width="44" height="44" align="left" alt="Roman Slobodzianyk"></a>&nbsp; <b>Roman Slobodzianyk</b><br>&nbsp; <sub>LinkedIn Ads CoE Leader · Impactable</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Leads Impactable's LinkedIn Ads Center of Excellence and manages its team of LinkedIn Ads specialists. Sets the standards, AI-assisted workflows and review routines used across the agency's B2B client accounts.
+
+[LinkedIn](https://www.linkedin.com/in/roman-slobodzianyk-b67549140/) · [impactable.com](https://impactable.com/) · [All authors](../AUTHORS.md#roman-slobodzianyk)
 
 ## Credit
 

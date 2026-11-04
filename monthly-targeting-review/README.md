@@ -6,7 +6,7 @@
 
 Who each campaign paid to reach next to the people on your deals, and where to move budget
 
-<a href="https://www.linkedin.com/in/b2b-marketing-expert/"><img src="../assets/authors/george-coudounaris.png" width="44" height="44" align="left" alt="George Coudounaris"></a>&nbsp; <b>George Coudounaris</b><br>&nbsp; <sub>The B2B Playbook</sub>
+<a href="https://www.linkedin.com/in/b2b-marketing-expert/"><img src="../assets/authors/george-coudounaris.png" width="44" height="44" align="left" alt="George Coudounaris"></a>&nbsp; <b>George Coudounaris</b><br>&nbsp; <sub>Co-founder · The B2B Playbook</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Runs The B2B Playbook with Kevin Chen, a demand generation agency and consultancy running LinkedIn, Google and Meta ads for B2B teams. Co-hosts The B2B Playbook podcast, now past 200 episodes, and teaches demand generation to B2B marketing and revenue teams through the agency's courses.
+
+[LinkedIn](https://www.linkedin.com/in/b2b-marketing-expert/) · [theb2bplaybook.com](https://theb2bplaybook.com/) · [All authors](../AUTHORS.md#george-coudounaris)
 
 ## Credit
 

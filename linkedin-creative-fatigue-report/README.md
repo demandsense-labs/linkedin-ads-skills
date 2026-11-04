@@ -6,7 +6,7 @@
 
 Which ads are wearing out, in which ad set, how fast, and whether to pause them
 
-<a href="https://www.linkedin.com/in/ivanfalco/"><img src="../assets/authors/ivan-falco.png" width="44" height="44" align="left" alt="Ivan Falco"></a>&nbsp; <b>Ivan Falco</b><br>&nbsp; <sub>Frontal</sub>
+<a href="https://www.linkedin.com/in/ivanfalco/"><img src="../assets/authors/ivan-falco.png" width="44" height="44" align="left" alt="Ivan Falco"></a>&nbsp; <b>Ivan Falco</b><br>&nbsp; <sub>Partner &amp; Head of ABM · Frontal</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Leads ABM at Frontal, the B2B demand generation agency formerly known as ColdIQ Agency. Runs LinkedIn Ads and ABM programmes for tech companies, and publishes his own LinkedIn Ads skills for Claude.
+
+[LinkedIn](https://www.linkedin.com/in/ivanfalco/) · [frontal.so](https://frontal.so/) · [All authors](../AUTHORS.md#ivan-falco)
 
 ## Credit
 

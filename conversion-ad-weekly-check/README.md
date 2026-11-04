@@ -6,7 +6,7 @@
 
 Lead Gen Form and Message ads judged against your goal cost per lead: what to pause and which winners to copy
 
-<a href="https://www.linkedin.com/in/moby/"><img src="../assets/authors/moby-hayat.png" width="44" height="44" align="left" alt="Moby Hayat"></a>&nbsp; <b>Moby Hayat</b><br>&nbsp; <sub>Fireshow Media</sub>
+<a href="https://www.linkedin.com/in/moby/"><img src="../assets/authors/moby-hayat.png" width="44" height="44" align="left" alt="Moby Hayat"></a>&nbsp; <b>Moby Hayat</b><br>&nbsp; <sub>Founder · Fireshow Media</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Runs paid media for B2B companies out of Austin, Texas, across LinkedIn, Meta and Google, and writes the ads himself. Has run Fireshow Media since 2016 and hosts Marketing Games, a show where B2B marketing leaders rank tactics.
+
+[LinkedIn](https://www.linkedin.com/in/moby/) · [fireshowmedia.com](https://fireshowmedia.com/) · [All authors](../AUTHORS.md#moby-hayat)
 
 ## Credit
 

@@ -6,7 +6,7 @@
 
 A short list of who sales should call this week, with one handoff line per account
 
-<a href="https://www.linkedin.com/in/justin-rowe-4043339b/"><img src="../assets/authors/justin-rowe.png" width="44" height="44" align="left" alt="Justin Rowe"></a>&nbsp; <b>Justin Rowe</b><br>&nbsp; <sub>Impactable</sub>
+<a href="https://www.linkedin.com/in/justin-rowe-4043339b/"><img src="../assets/authors/justin-rowe.png" width="44" height="44" align="left" alt="Justin Rowe"></a>&nbsp; <b>Justin Rowe</b><br>&nbsp; <sub>Founder &amp; CEO · Impactable</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Founder and CEO of Impactable, a LinkedIn-centered B2B demand agency that runs marketing ecosystems as one connected system. Specializes in signal-based targeting and account-level measurement tied to real deals and pipeline.
+
+[LinkedIn](https://www.linkedin.com/in/justin-rowe-4043339b/) · [impactable.com](https://impactable.com/) · [All authors](../AUTHORS.md#justin-rowe)
 
 ## What to give the assistant
 

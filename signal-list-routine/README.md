@@ -6,7 +6,7 @@
 
 Which named target companies to write to this week, and why now
 
-<a href="https://www.linkedin.com/in/bgdn/"><img src="../assets/authors/bogdan-liutic.png" width="44" height="44" align="left" alt="Bogdan Liutic"></a>&nbsp; <b>Bogdan Liutic</b><br>&nbsp; <sub>CR8</sub>
+<a href="https://www.linkedin.com/in/bgdn/"><img src="../assets/authors/bogdan-liutic.png" width="44" height="44" align="left" alt="Bogdan Liutic"></a>&nbsp; <b>Bogdan Liutic</b><br>&nbsp; <sub>Founder · CR8</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Runs CR8, a LinkedIn Ads agency that targets companies by their public buying signals. A performance marketer, he built two businesses to seven figures on performance marketing and sales, wrote the LinkedIn ads playbook for Kyle Poyar's Growth Unhinged, and won Clay's 2026 GTM hackathon.
+
+[LinkedIn](https://www.linkedin.com/in/bgdn/) · [cr8.eco](https://cr8.eco/) · [All authors](../AUTHORS.md#bogdan-liutic)
 
 ## Credit
 

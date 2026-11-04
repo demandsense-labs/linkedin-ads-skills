@@ -6,7 +6,7 @@
 
 Two company lists from engagement on LinkedIn posts: one for sales review, one for nurture
 
-<a href="https://www.linkedin.com/in/alfredo-iscandar-talib/"><img src="../assets/authors/alfredo-talib.png" width="44" height="44" align="left" alt="Alfredo Talib"></a>&nbsp; <b>Alfredo Talib</b><br>&nbsp; <sub>Cornersight</sub>
+<a href="https://www.linkedin.com/in/alfredo-iscandar-talib/"><img src="../assets/authors/alfredo-talib.png" width="44" height="44" align="left" alt="Alfredo Talib"></a>&nbsp; <b>Alfredo Talib</b><br>&nbsp; <sub>Founder · Cornersight</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Built Cornersight, a tool that turns engagement on LinkedIn posts into leads scored against an ICP.
+
+[LinkedIn](https://www.linkedin.com/in/alfredo-iscandar-talib/) · [cornersight.io](https://www.cornersight.io/) · [All authors](../AUTHORS.md#alfredo-talib)
 
 ## Credit
 

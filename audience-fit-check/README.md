@@ -6,7 +6,7 @@
 
 A pass, one-more-week or rebuild call on a prospecting campaign, graded by the companies it reached against your ICP
 
-<a href="https://www.linkedin.com/in/jonathan-belliveau/"><img src="../assets/authors/jonathan-belliveau.png" width="44" height="44" align="left" alt="Jonathan Belliveau"></a>&nbsp; <b>Jonathan Belliveau</b><br>&nbsp; <sub>GrowthMotiv</sub>
+<a href="https://www.linkedin.com/in/jonathan-belliveau/"><img src="../assets/authors/jonathan-belliveau.png" width="44" height="44" align="left" alt="Jonathan Belliveau"></a>&nbsp; <b>Jonathan Belliveau</b><br>&nbsp; <sub>Founder &amp; Principal Revenue Architect · GrowthMotiv</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Built GrowthMotiv, which builds the tracking and account intelligence that tie B2B ad spend to closed revenue. Has spent fifteen years running paid budgets across B2C and B2B SaaS, and specialises in account-based marketing built on Apollo.
+
+[LinkedIn](https://www.linkedin.com/in/jonathan-belliveau/) · [growthmotiv.com](https://growthmotiv.com/) · [All authors](../AUTHORS.md#jonathan-belliveau)
 
 ## Credit
 

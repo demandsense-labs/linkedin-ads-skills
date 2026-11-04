@@ -6,7 +6,7 @@
 
 What one visit to your site really costs, with ad sets ranked from cheapest to dearest
 
-<a href="https://www.linkedin.com/in/krutainis/"><img src="../assets/authors/ivars-krutainis.png" width="44" height="44" align="left" alt="Ivars Krutainis"></a>&nbsp; <b>Ivars Krutainis</b><br>&nbsp; <sub>Otter</sub>
+<a href="https://www.linkedin.com/in/krutainis/"><img src="../assets/authors/ivars-krutainis.png" width="44" height="44" align="left" alt="Ivars Krutainis"></a>&nbsp; <b>Ivars Krutainis</b><br>&nbsp; <sub>Founder · Otter</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Runs Otter, an agency that runs LinkedIn Ads only, for B2B SaaS companies. Handles strategy and execution on every account himself, from targeting and creative briefs to reporting.
+
+[LinkedIn](https://www.linkedin.com/in/krutainis/) · [otterad.com](https://www.otterad.com/) · [All authors](../AUTHORS.md#ivars-krutainis)
 
 ## Credit
 

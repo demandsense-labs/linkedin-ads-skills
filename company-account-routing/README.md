@@ -6,7 +6,7 @@
 
 Which companies take most of the impressions, which are underserved, and which to move into their own audience
 
-<a href="https://www.linkedin.com/in/joshua-stout/"><img src="../assets/authors/joshua-stout.png" width="44" height="44" align="left" alt="Joshua Stout"></a>&nbsp; <b>Joshua Stout</b><br>&nbsp; <sub>Beyond The Funnel</sub>
+<a href="https://www.linkedin.com/in/joshua-stout/"><img src="../assets/authors/joshua-stout.png" width="44" height="44" align="left" alt="Joshua Stout"></a>&nbsp; <b>Joshua Stout</b><br>&nbsp; <sub>Founder · Beyond The Funnel</sub>
 
 <br clear="left">
 
@@ -31,6 +31,12 @@ It gives recommendations only and changes nothing in your ad account or CRM.
 ```
 
 [`SKILL.md`](SKILL.md) holds the instructions the assistant follows.
+
+## About the author
+
+Founder of Beyond The Funnel, a B2B LinkedIn Ads agency. One of 80 LinkedIn Certified Marketing Experts worldwide, he has managed or overseen 1,000+ LinkedIn Ads accounts, helped scale a multimillion-dollar LinkedIn Ads service, and was Director of Advertising at Influent.
+
+[LinkedIn](https://www.linkedin.com/in/joshua-stout/) · [beyondthefunnel.ai](https://www.beyondthefunnel.ai/) · [All authors](../AUTHORS.md#joshua-stout)
 
 ## Credit
 
