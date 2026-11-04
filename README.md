@@ -239,7 +239,7 @@ Then ask for what you need ("build this week's warm-lead handoff from these file
 
 ## <img src="assets/dot.svg" width="12" height="12" alt=""> Rules
 
-The Standard's rules say what LinkedIn does by default, and what to do on top of it. There are 15, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Each rule's page lists the skills and scenarios that apply it: [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
+The Standard's rules say what LinkedIn does by default, and what to do on top of it, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Each rule's page lists the skills and scenarios that apply it: [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
 
 <a name="needs"></a>
 
