@@ -9,10 +9,6 @@ description: >
   tool, for example Cornersight), the LinkedIn Campaign Manager Companies tab export and a website visitor export. It works
   at company level, gives recommendations only and sends nothing.
 version: 1.0.0
-license: "CC-BY-4.0 (see LICENSE). Credit: Alfredo Talib, Cornersight, adapted by DemandSense"
-metadata:
-  author: "Alfredo Talib, Cornersight"
-  source: https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/social-signals-to-pipeline
 tags: [social-signals, linkedin, engagers, sales-review, nurture, icp, abm]
 ---
 
@@ -47,7 +43,7 @@ If the user has not supplied the data, tell them what you need and how to get it
 **Step 0. Pick the organic signal and check the files.** Ask once, and skip the question if the files answer it: the social signal is the engagers export (people and competitors' posts), the Companies export's organic engagements (the user's own company page), or both. State the run date, the window, the number of rows in each file and the date range of each. If a file has no date column, say so. Do not go on without the user's ICP: ask for it.
 
 **Step 1. Collect.**
-- Engagers: keep rows whose engagement date is inside the window. Count the rows outside it and set them aside. Drop engagers from the user's own company and from the competitor whose post was used; count them and name the company.
+- Engagers: keep rows whose engagement date is inside the window. In some tools (Cornersight, for one) a like is dated when the tool found it, not when it happened, so the window on likes is approximate, while a comment carries its own posting date, so the window on comments is exact. When the export has an engagement type, say this once in the data checks and, if likes make up most of the engagers inside the window, call the count approximate. Count the rows outside it and set them aside. Drop engagers from the user's own company and from the competitor whose post was used; count them and name the company.
 - Company page: from the Companies export keep companies with organic engagements above 0 (engagements, not impressions alone, make a company engaging). No people exist for these; the signal stops at the company.
 - A company found by both is marked "post engagers + company page".
 
