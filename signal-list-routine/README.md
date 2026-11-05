@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/signal-loop"><img src="../assets/covers/signal-list-routine.svg" width="96" height="96" alt="Signal loop"></a>
+<a href="https://b2baistandard.com/scenarios/signal-loop"><img src="../assets/covers/signal-list-routine.svg" width="96" height="96" alt="Signal loop"></a>
 
 # Signal loop
 
@@ -10,7 +10,7 @@ Which named target companies to write to this week, and why now
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/signal-loop](https://ds-b2b-ai-standards.vercel.app/scenarios/signal-loop)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/signal-loop](https://b2baistandard.com/scenarios/signal-loop)
 
 ## Run it in a chat
 

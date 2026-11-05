@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff"><img src="../assets/covers/warm-lead-handoff.svg" width="96" height="96" alt="Warm-lead handoff"></a>
+<a href="https://b2baistandard.com/scenarios/warm-lead-handoff"><img src="../assets/covers/warm-lead-handoff.svg" width="96" height="96" alt="Warm-lead handoff"></a>
 
 # Warm-lead handoff
 
@@ -10,7 +10,7 @@ A short list of who sales should call this week, with one handoff line per accou
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff](https://ds-b2b-ai-standards.vercel.app/scenarios/warm-lead-handoff)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/warm-lead-handoff](https://b2baistandard.com/scenarios/warm-lead-handoff)
 
 ## Run it in a chat
 

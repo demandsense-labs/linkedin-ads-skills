@@ -27,7 +27,7 @@ Every skill and scenario in this repository is published under [CC BY 4.0](LICEN
 </tr>
 <tr>
 <td width="50%" valign="top"><a name="ivan-falco"></a><a href="https://www.linkedin.com/in/ivanfalco/"><img src="assets/authors/ivan-falco.png" width="56" height="56" align="left" alt="Ivan Falco"></a>&nbsp; <b>Ivan Falco</b><br>&nbsp; <sub>Partner &amp; Head of ABM · Frontal</sub><br clear="left"><br>Leads ABM at Frontal, the B2B demand generation agency formerly known as ColdIQ Agency. Runs LinkedIn Ads and ABM programmes for tech companies, and publishes his own LinkedIn Ads skills for Claude.<br><br><b>Wrote:</b> <a href="linkedin-creative-fatigue-report">LinkedIn Creative Fatigue Report</a> <sub>(skill)</sub><br><br><sub><a href="https://www.linkedin.com/in/ivanfalco/">LinkedIn</a> · <a href="https://frontal.so/">frontal.so</a></sub></td>
-<td width="50%" valign="top"><a name="demandsense"></a><a href="https://demandsense.com/"><img src="assets/authors/demandsense.png" width="56" height="56" align="left" alt="DemandSense"></a>&nbsp; <b>DemandSense</b><br>&nbsp; <sub>Maintains the Standard</sub><br clear="left"><br>Builds software that shows B2B teams which accounts their LinkedIn Ads reach and what that turns into in pipeline. The DemandSense team wrote the Standard&#x27;s rules and keeps its skills library open on GitHub.<br><br><b>Wrote:</b> <a href="https://ds-b2b-ai-standards.vercel.app/rules">The rules</a>, <a href="linkedin-campaign-early-read">LinkedIn Campaign Early Read</a> and every skill not credited to an author here<br><br><sub><a href="https://demandsense.com/">demandsense.com</a></sub></td>
+<td width="50%" valign="top"><a name="demandsense"></a><a href="https://demandsense.com/"><img src="assets/authors/demandsense.png" width="56" height="56" align="left" alt="DemandSense"></a>&nbsp; <b>DemandSense</b><br>&nbsp; <sub>Maintains the Standard</sub><br clear="left"><br>Builds software that shows B2B teams which accounts their LinkedIn Ads reach and what that turns into in pipeline. The DemandSense team wrote the Standard&#x27;s rules and keeps its skills library open on GitHub.<br><br><b>Wrote:</b> <a href="https://b2baistandard.com/rules">The rules</a>, <a href="linkedin-campaign-early-read">LinkedIn Campaign Early Read</a> and every skill not credited to an author here<br><br><sub><a href="https://demandsense.com/">demandsense.com</a></sub></td>
 </tr>
 </table>
 
@@ -63,4 +63,4 @@ The other skills are by [DemandSense](https://demandsense.com). Credit line: `<S
 
 ## Rules
 
-The rules each skill applies, with the practitioners quoted on each one, are on the Standard's site: [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
+The rules each skill applies, with the practitioners quoted on each one, are on the Standard's site: [b2baistandard.com/rules](https://b2baistandard.com/rules).

@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/weekly-reporting"><img src="../assets/covers/weekly-reporting.svg" width="96" height="96" alt="Weekly Reporting"></a>
+<a href="https://b2baistandard.com/skills/weekly-reporting"><img src="../assets/covers/weekly-reporting.svg" width="96" height="96" alt="Weekly Reporting"></a>
 
 # Weekly Reporting
 
@@ -10,7 +10,7 @@ A weekly breakdown across LinkedIn, Google Ads and Meta, with the main drivers
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/weekly-reporting](https://ds-b2b-ai-standards.vercel.app/skills/weekly-reporting)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/weekly-reporting](https://b2baistandard.com/skills/weekly-reporting)
 
 ## Run it in a chat
 

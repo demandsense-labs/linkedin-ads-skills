@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-benchmark-context"><img src="../assets/covers/linkedin-benchmark-context.svg" width="96" height="96" alt="LinkedIn Benchmark Context"></a>
+<a href="https://b2baistandard.com/skills/linkedin-benchmark-context"><img src="../assets/covers/linkedin-benchmark-context.svg" width="96" height="96" alt="LinkedIn Benchmark Context"></a>
 
 # LinkedIn Benchmark Context
 
@@ -10,7 +10,7 @@ Your results against your own history first, then market benchmarks
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/linkedin-benchmark-context](https://ds-b2b-ai-standards.vercel.app/skills/linkedin-benchmark-context)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/linkedin-benchmark-context](https://b2baistandard.com/skills/linkedin-benchmark-context)
 
 ## Run it in a chat
 

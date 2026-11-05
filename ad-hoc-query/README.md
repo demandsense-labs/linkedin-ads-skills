@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/ad-hoc-query"><img src="../assets/covers/ad-hoc-query.svg" width="96" height="96" alt="Ad-Hoc Query"></a>
+<a href="https://b2baistandard.com/skills/ad-hoc-query"><img src="../assets/covers/ad-hoc-query.svg" width="96" height="96" alt="Ad-Hoc Query"></a>
 
 # Ad-Hoc Query
 
@@ -10,7 +10,7 @@ Answers to open questions: what changed, trends, breakdowns, pacing, pipeline
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/ad-hoc-query](https://ds-b2b-ai-standards.vercel.app/skills/ad-hoc-query)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/ad-hoc-query](https://b2baistandard.com/skills/ad-hoc-query)
 
 ## Run it in a chat
 

@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/pacing-check-against-schedule"><img src="../assets/covers/pacing-check-against-schedule.svg" width="96" height="96" alt="Pacing Check Against Schedule"></a>
+<a href="https://b2baistandard.com/skills/pacing-check-against-schedule"><img src="../assets/covers/pacing-check-against-schedule.svg" width="96" height="96" alt="Pacing Check Against Schedule"></a>
 
 # Pacing Check Against Schedule
 
@@ -10,7 +10,7 @@ Campaigns spending off their daily budget or schedule, and what to do
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/pacing-check-against-schedule](https://ds-b2b-ai-standards.vercel.app/skills/pacing-check-against-schedule)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/pacing-check-against-schedule](https://b2baistandard.com/skills/pacing-check-against-schedule)
 
 ## Run it in a chat
 

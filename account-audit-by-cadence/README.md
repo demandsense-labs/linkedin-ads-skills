@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/account-audit-by-cadence"><img src="../assets/covers/account-audit-by-cadence.svg" width="96" height="96" alt="Account audit by cadence"></a>
+<a href="https://b2baistandard.com/scenarios/account-audit-by-cadence"><img src="../assets/covers/account-audit-by-cadence.svg" width="96" height="96" alt="Account audit by cadence"></a>
 
 # Account audit by cadence
 
@@ -10,7 +10,7 @@ Eight account checks on a schedule: what to fix today, this week and this month
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/account-audit-by-cadence](https://ds-b2b-ai-standards.vercel.app/scenarios/account-audit-by-cadence)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/account-audit-by-cadence](https://b2baistandard.com/scenarios/account-audit-by-cadence)
 
 ## Run it in a chat
 

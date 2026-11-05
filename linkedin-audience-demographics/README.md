@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Who the budget reaches</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-audience-demographics"><img src="../assets/covers/linkedin-audience-demographics.svg" width="96" height="96" alt="LinkedIn Audience Demographics"></a>
+<a href="https://b2baistandard.com/skills/linkedin-audience-demographics"><img src="../assets/covers/linkedin-audience-demographics.svg" width="96" height="96" alt="LinkedIn Audience Demographics"></a>
 
 # LinkedIn Audience Demographics
 
@@ -10,7 +10,7 @@ Who your ads reach and who responds, by seniority, function, title, industry, si
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/linkedin-audience-demographics](https://ds-b2b-ai-standards.vercel.app/skills/linkedin-audience-demographics)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/linkedin-audience-demographics](https://b2baistandard.com/skills/linkedin-audience-demographics)
 
 ## Run it in a chat
 

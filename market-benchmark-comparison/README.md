@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/market-benchmark-comparison"><img src="../assets/covers/market-benchmark-comparison.svg" width="96" height="96" alt="Market Benchmark Comparison"></a>
+<a href="https://b2baistandard.com/skills/market-benchmark-comparison"><img src="../assets/covers/market-benchmark-comparison.svg" width="96" height="96" alt="Market Benchmark Comparison"></a>
 
 # Market Benchmark Comparison
 
@@ -10,7 +10,7 @@ Campaign groups compared with a published market benchmark
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/market-benchmark-comparison](https://ds-b2b-ai-standards.vercel.app/skills/market-benchmark-comparison)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/market-benchmark-comparison](https://b2baistandard.com/skills/market-benchmark-comparison)
 
 ## Run it in a chat
 

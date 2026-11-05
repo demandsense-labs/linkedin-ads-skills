@@ -1,6 +1,6 @@
 <!-- Thanks! Pull requests are for small fixes: typos, broken links, install problems.
 To change what a skill tells people to do, open an issue instead, so it can be checked with the skill's author.
-To send a new skill, scenario or rule: https://ds-b2b-ai-standards.vercel.app/contribute -->
+To send a new skill, scenario or rule: https://b2baistandard.com/contribute -->
 
 **What this fixes:**
 

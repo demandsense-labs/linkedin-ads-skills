@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Reach and frequency</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/silent-watchers-finder"><img src="../assets/covers/silent-watchers-finder.svg" width="96" height="96" alt="Silent Watchers Finder"></a>
+<a href="https://b2baistandard.com/skills/silent-watchers-finder"><img src="../assets/covers/silent-watchers-finder.svg" width="96" height="96" alt="Silent Watchers Finder"></a>
 
 # Silent Watchers Finder
 
@@ -10,7 +10,7 @@ Companies that saw your ads for three months and never engaged
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/silent-watchers-finder](https://ds-b2b-ai-standards.vercel.app/skills/silent-watchers-finder)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/silent-watchers-finder](https://b2baistandard.com/skills/silent-watchers-finder)
 
 ## Run it in a chat
 

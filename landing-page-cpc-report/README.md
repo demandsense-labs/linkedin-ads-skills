@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/landing-page-cpc-report"><img src="../assets/covers/landing-page-cpc-report.svg" width="96" height="96" alt="Landing-page CPC report"></a>
+<a href="https://b2baistandard.com/skills/landing-page-cpc-report"><img src="../assets/covers/landing-page-cpc-report.svg" width="96" height="96" alt="Landing-page CPC report"></a>
 
 # Landing-page CPC report
 
@@ -10,7 +10,7 @@ What one visit to your site really costs, with ad sets ranked from cheapest to d
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/landing-page-cpc-report](https://ds-b2b-ai-standards.vercel.app/skills/landing-page-cpc-report)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/landing-page-cpc-report](https://b2baistandard.com/skills/landing-page-cpc-report)
 
 ## Run it in a chat
 

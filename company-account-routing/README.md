@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/company-level-account-routing"><img src="../assets/covers/company-account-routing.svg" width="96" height="96" alt="Company-level account routing"></a>
+<a href="https://b2baistandard.com/scenarios/company-level-account-routing"><img src="../assets/covers/company-account-routing.svg" width="96" height="96" alt="Company-level account routing"></a>
 
 # Company-level account routing
 
@@ -10,7 +10,7 @@ Which companies take most of the impressions, which are underserved, and which t
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/company-level-account-routing](https://ds-b2b-ai-standards.vercel.app/scenarios/company-level-account-routing)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/company-level-account-routing](https://b2baistandard.com/scenarios/company-level-account-routing)
 
 ## Run it in a chat
 

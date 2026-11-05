@@ -1,12 +1,12 @@
 # Contributing
 
-This collection is written by LinkedIn Ads practitioners and maintained by DemandSense as part of [The B2B AI Standard for LinkedIn Ads](https://ds-b2b-ai-standards.vercel.app/collection). There are three ways to take part.
+This collection is written by LinkedIn Ads practitioners and maintained by DemandSense as part of [The B2B AI Standard for LinkedIn Ads](https://b2baistandard.com/collection). There are three ways to take part.
 
 ## Send a skill, a scenario or a rule
 
 Run a check we don't have? Send it as you run it today; you don't need to write a `SKILL.md`. We package it, test it with you and publish it under your name, with your company and links.
 
-Start here: [ds-b2b-ai-standards.vercel.app/contribute](https://ds-b2b-ai-standards.vercel.app/contribute).
+Start here: [b2baistandard.com/contribute](https://b2baistandard.com/contribute).
 
 ## Tell us a skill gets something wrong
 

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Send a skill, a scenario or a rule
-    url: https://ds-b2b-ai-standards.vercel.app/contribute
+    url: https://b2baistandard.com/contribute
     about: Send it as you run it today. We package it, test it with you and publish it under your name.
   - name: Browse the collection
-    url: https://ds-b2b-ai-standards.vercel.app/collection
+    url: https://b2baistandard.com/collection
     about: Every skill with the exports it needs and a prompt ready to copy.

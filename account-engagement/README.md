@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · From signal to sales</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/account-engagement"><img src="../assets/covers/account-engagement.svg" width="96" height="96" alt="Account Engagement"></a>
+<a href="https://b2baistandard.com/skills/account-engagement"><img src="../assets/covers/account-engagement.svg" width="96" height="96" alt="Account Engagement"></a>
 
 # Account Engagement
 
@@ -10,7 +10,7 @@ Engaged companies tied to pipeline, and the ones missing from the CRM
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/account-engagement](https://ds-b2b-ai-standards.vercel.app/skills/account-engagement)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/account-engagement](https://b2baistandard.com/skills/account-engagement)
 
 ## Run it in a chat
 
