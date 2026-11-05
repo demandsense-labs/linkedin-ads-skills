@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/pausing-low-performing-ads"><img src="../assets/covers/pausing-low-performing-ads.svg" width="96" height="96" alt="Pausing Low-Performing Ads"></a>
+<a href="https://b2baistandard.com/skills/pausing-low-performing-ads"><img src="../assets/covers/pausing-low-performing-ads.svg" width="96" height="96" alt="Pausing Low-Performing Ads"></a>
 
 # Pausing Low-Performing Ads
 
@@ -10,7 +10,7 @@ The best ad in a campaign and the ones worth stopping, with the statistics behin
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/pausing-low-performing-ads](https://ds-b2b-ai-standards.vercel.app/skills/pausing-low-performing-ads)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/pausing-low-performing-ads](https://b2baistandard.com/skills/pausing-low-performing-ads)
 
 ## Run it in a chat
 

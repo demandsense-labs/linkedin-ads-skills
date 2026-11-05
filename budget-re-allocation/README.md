@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/budget-re-allocation"><img src="../assets/covers/budget-re-allocation.svg" width="96" height="96" alt="Budget Re-allocation"></a>
+<a href="https://b2baistandard.com/skills/budget-re-allocation"><img src="../assets/covers/budget-re-allocation.svg" width="96" height="96" alt="Budget Re-allocation"></a>
 
 # Budget Re-allocation
 
@@ -10,7 +10,7 @@ A plan to move budget from ended or paused campaigns to the ones that earn it
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/budget-re-allocation](https://ds-b2b-ai-standards.vercel.app/skills/budget-re-allocation)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/budget-re-allocation](https://b2baistandard.com/skills/budget-re-allocation)
 
 ## Run it in a chat
 

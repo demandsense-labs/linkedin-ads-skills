@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · From signal to sales</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/no-deal-warm-leads-finder"><img src="../assets/covers/no-deal-warm-leads-finder.svg" width="96" height="96" alt="No-Deal Warm Leads Finder"></a>
+<a href="https://b2baistandard.com/skills/no-deal-warm-leads-finder"><img src="../assets/covers/no-deal-warm-leads-finder.svg" width="96" height="96" alt="No-Deal Warm Leads Finder"></a>
 
 # No-Deal Warm Leads Finder
 
@@ -10,7 +10,7 @@ Engaged companies that are not customers and have no open deal, ranked in tiers
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/no-deal-warm-leads-finder](https://ds-b2b-ai-standards.vercel.app/skills/no-deal-warm-leads-finder)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/no-deal-warm-leads-finder](https://b2baistandard.com/skills/no-deal-warm-leads-finder)
 
 ## Run it in a chat
 

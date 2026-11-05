@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/cost-per-retargetable-member"><img src="../assets/covers/cost-per-retargetable-member.svg" width="96" height="96" alt="Cost per retargetable member"></a>
+<a href="https://b2baistandard.com/skills/cost-per-retargetable-member"><img src="../assets/covers/cost-per-retargetable-member.svg" width="96" height="96" alt="Cost per retargetable member"></a>
 
 # Cost per retargetable member
 
@@ -10,7 +10,7 @@ What it costs to add one person to your retargeting audience, and the ad type an
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/cost-per-retargetable-member](https://ds-b2b-ai-standards.vercel.app/skills/cost-per-retargetable-member)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/cost-per-retargetable-member](https://b2baistandard.com/skills/cost-per-retargetable-member)
 
 ## Run it in a chat
 

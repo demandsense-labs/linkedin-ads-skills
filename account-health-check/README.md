@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/account-health-check"><img src="../assets/covers/account-health-check.svg" width="96" height="96" alt="Account Health Check"></a>
+<a href="https://b2baistandard.com/skills/account-health-check"><img src="../assets/covers/account-health-check.svg" width="96" height="96" alt="Account Health Check"></a>
 
 # Account Health Check
 
@@ -10,7 +10,7 @@ A ranked list of what to fix first in the account
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/account-health-check](https://ds-b2b-ai-standards.vercel.app/skills/account-health-check)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/account-health-check](https://b2baistandard.com/skills/account-health-check)
 
 ## Run it in a chat
 

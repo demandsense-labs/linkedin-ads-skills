@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Who the budget reaches</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/waste-budget-detection"><img src="../assets/covers/waste-budget-detection.svg" width="96" height="96" alt="Waste Budget Detection"></a>
+<a href="https://b2baistandard.com/skills/waste-budget-detection"><img src="../assets/covers/waste-budget-detection.svg" width="96" height="96" alt="Waste Budget Detection"></a>
 
 # Waste Budget Detection
 
@@ -10,7 +10,7 @@ Campaigns that spent in the last 30 days without producing what they were built 
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/waste-budget-detection](https://ds-b2b-ai-standards.vercel.app/skills/waste-budget-detection)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/waste-budget-detection](https://b2baistandard.com/skills/waste-budget-detection)
 
 ## Run it in a chat
 

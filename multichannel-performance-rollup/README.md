@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/multichannel-performance-rollup"><img src="../assets/covers/multichannel-performance-rollup.svg" width="96" height="96" alt="Multichannel Performance Rollup"></a>
+<a href="https://b2baistandard.com/skills/multichannel-performance-rollup"><img src="../assets/covers/multichannel-performance-rollup.svg" width="96" height="96" alt="Multichannel Performance Rollup"></a>
 
 # Multichannel Performance Rollup
 
@@ -10,7 +10,7 @@ Several ad platforms in one view, with what can and cannot be added together
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/multichannel-performance-rollup](https://ds-b2b-ai-standards.vercel.app/skills/multichannel-performance-rollup)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/multichannel-performance-rollup](https://b2baistandard.com/skills/multichannel-performance-rollup)
 
 ## Run it in a chat
 

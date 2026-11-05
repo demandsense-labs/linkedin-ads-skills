@@ -1,4 +1,4 @@
-<p align="center"><a href="https://ds-b2b-ai-standards.vercel.app/collection"><img src="assets/banner.svg" width="100%" alt="The B2B AI Standard for LinkedIn Ads: skills and scenarios for running LinkedIn Ads with AI, written and tested by practitioners."></a></p>
+<p align="center"><a href="https://b2baistandard.com/collection"><img src="assets/banner.svg" width="100%" alt="The B2B AI Standard for LinkedIn Ads: skills and scenarios for running LinkedIn Ads with AI, written and tested by practitioners."></a></p>
 
 <p align="center">
 <a href="#licence"><img src="assets/chips/cc-by-4.0.svg" height="26" alt="CC BY 4.0"></a>
@@ -6,7 +6,7 @@
 <a href="#install"><img src="assets/chips/claude-code-plugin.svg" height="26" alt="Claude Code plugin"></a>
 </p>
 
-<p align="center"><b><a href="https://ds-b2b-ai-standards.vercel.app/collection">Browse the collection</a></b> · <a href="#install">Install in Claude</a> · <a href="#run">Run one in a chat</a> · <a href="https://ds-b2b-ai-standards.vercel.app/rules">Rules</a> · <a href="#licence">Licence</a></p>
+<p align="center"><b><a href="https://b2baistandard.com/collection">Browse the collection</a></b> · <a href="#install">Install in Claude</a> · <a href="#run">Run one in a chat</a> · <a href="https://b2baistandard.com/rules">Rules</a> · <a href="#licence">Licence</a></p>
 
 Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com).
 
@@ -212,7 +212,7 @@ Attach your exports to a chat with Claude (or any assistant that can read a web 
 Load the Warm-lead handoff scenario from https://github.com/demandsense-labs/linkedin-ads-skills/tree/main/warm-lead-handoff and run it on the exports I've attached.
 ```
 
-Swap the name and folder for any skill below. Each skill's page on the [collection](https://ds-b2b-ai-standards.vercel.app/collection) lists the exports it needs and gives the same prompt ready to copy.
+Swap the name and folder for any skill below. Each skill's page on the [collection](https://b2baistandard.com/collection) lists the exports it needs and gives the same prompt ready to copy.
 
 <a name="install"></a>
 
@@ -255,7 +255,7 @@ It asks which skills to install and for which assistants. For one skill, add `--
 
 ## <img src="assets/dot.svg" width="12" height="12" alt=""> Rules
 
-The Standard's rules say what LinkedIn does by default, and what to do on top of it, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Each rule's page lists the skills and scenarios that apply it: [ds-b2b-ai-standards.vercel.app/rules](https://ds-b2b-ai-standards.vercel.app/rules).
+The Standard's rules say what LinkedIn does by default, and what to do on top of it, for example *Read frequency and penetration together* and *Report exposure, influence and attribution separately*. Each rule's page lists the skills and scenarios that apply it: [b2baistandard.com/rules](https://b2baistandard.com/rules).
 
 <a name="needs"></a>
 
@@ -267,7 +267,7 @@ Every skill works from the files you attach: Campaign Manager exports, a web ana
 
 ## <img src="assets/dot.svg" width="12" height="12" alt=""> Contribute
 
-Run a check we don't have? Send a skill, a scenario or a rule as you run it today. We package it, test it with you and publish it under your name, with your company and links: [ds-b2b-ai-standards.vercel.app/contribute](https://ds-b2b-ai-standards.vercel.app/contribute).
+Run a check we don't have? Send a skill, a scenario or a rule as you run it today. We package it, test it with you and publish it under your name, with your company and links: [b2baistandard.com/contribute](https://b2baistandard.com/contribute).
 
 Think a skill gets something wrong? [Open an issue](https://github.com/demandsense-labs/linkedin-ads-skills/issues). If testing shows you're right, you're credited as a contributor.
 

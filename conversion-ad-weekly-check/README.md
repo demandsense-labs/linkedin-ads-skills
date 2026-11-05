@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/weekly-check-for-conversion-campaigns"><img src="../assets/covers/conversion-ad-weekly-check.svg" width="96" height="96" alt="Weekly check for conversion campaigns"></a>
+<a href="https://b2baistandard.com/scenarios/weekly-check-for-conversion-campaigns"><img src="../assets/covers/conversion-ad-weekly-check.svg" width="96" height="96" alt="Weekly check for conversion campaigns"></a>
 
 # Weekly check for conversion campaigns
 
@@ -10,7 +10,7 @@ Lead Gen Form and Message ads judged against your goal cost per lead: what to pa
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/weekly-check-for-conversion-campaigns](https://ds-b2b-ai-standards.vercel.app/scenarios/weekly-check-for-conversion-campaigns)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/weekly-check-for-conversion-campaigns](https://b2baistandard.com/scenarios/weekly-check-for-conversion-campaigns)
 
 ## Run it in a chat
 

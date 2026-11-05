@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/scenarios/turn-social-signals-into-pipeline"><img src="../assets/covers/social-signals-to-pipeline.svg" width="96" height="96" alt="Turn social signals into pipeline"></a>
+<a href="https://b2baistandard.com/scenarios/turn-social-signals-into-pipeline"><img src="../assets/covers/social-signals-to-pipeline.svg" width="96" height="96" alt="Turn social signals into pipeline"></a>
 
 # Turn social signals into pipeline
 
@@ -10,7 +10,7 @@ Two company lists from engagement on LinkedIn posts: one for sales review, one f
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/scenarios/turn-social-signals-into-pipeline](https://ds-b2b-ai-standards.vercel.app/scenarios/turn-social-signals-into-pipeline)
+**Full page, with the exports it needs:** [b2baistandard.com/scenarios/turn-social-signals-into-pipeline](https://b2baistandard.com/scenarios/turn-social-signals-into-pipeline)
 
 ## Run it in a chat
 

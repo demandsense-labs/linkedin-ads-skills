@@ -1,6 +1,6 @@
 <sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Ads and creative</a></sub>
 
-<a href="https://ds-b2b-ai-standards.vercel.app/skills/linkedin-creative-fatigue-report"><img src="../assets/covers/linkedin-creative-fatigue-report.svg" width="96" height="96" alt="LinkedIn Creative Fatigue Report"></a>
+<a href="https://b2baistandard.com/skills/linkedin-creative-fatigue-report"><img src="../assets/covers/linkedin-creative-fatigue-report.svg" width="96" height="96" alt="LinkedIn Creative Fatigue Report"></a>
 
 # LinkedIn Creative Fatigue Report
 
@@ -10,7 +10,7 @@ Which ads are wearing out, in which ad set, how fast, and whether to pause them
 
 <br clear="left">
 
-**Full page, with the exports it needs:** [ds-b2b-ai-standards.vercel.app/skills/linkedin-creative-fatigue-report](https://ds-b2b-ai-standards.vercel.app/skills/linkedin-creative-fatigue-report)
+**Full page, with the exports it needs:** [b2baistandard.com/skills/linkedin-creative-fatigue-report](https://b2baistandard.com/skills/linkedin-creative-fatigue-report)
 
 ## Run it in a chat
 
