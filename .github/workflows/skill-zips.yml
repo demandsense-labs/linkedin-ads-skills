@@ -30,9 +30,179 @@ jobs:
         with:
           python-version: "3.12"
       - name: Check the skills first
-        run: python .github/scripts/validate_skills.py
+        run: |
+          python - <<'PY'
+          """Checks every skill folder and the plugin manifests. Runs in CI on each push and pull request.
+
+          A skill folder is any top-level folder with a SKILL.md. Each one needs:
+          - frontmatter with name (equal to the folder), description (up to 1024 characters), a CC-BY-4.0 license line
+            and metadata.author, so the author's credit travels with the file
+          - a README.md
+          Both manifests in .claude-plugin/ must list exactly the skill folders, the README must link every skill folder,
+          and every relative link in the repository's markdown must point at a file that exists."""
+          import json
+          import os
+          import pathlib
+          import re
+          import sys
+
+          ROOT = pathlib.Path.cwd()
+          errors = []
+
+
+          def frontmatter(text):
+              m = re.match(r"---\n(.*?)\n---\n", text.replace("\r\n", "\n"), re.S)
+              return m.group(1) if m else None
+
+
+          def field(fm, key):
+              m = re.search(rf"^{key}:[ \t]*(.*?)(?=^\S[^\n]*:|\Z)", fm, re.M | re.S)
+              if not m:
+                  return None
+              return " ".join(m.group(1).replace(">-", " ").replace(">", " ").replace("|", " ").split()).strip("\"'")
+
+
+          folders = sorted(p.parent.name for p in ROOT.glob("*/SKILL.md"))
+          for f in folders:
+              fm = frontmatter((ROOT / f / "SKILL.md").read_text(encoding="utf-8"))
+              if fm is None:
+                  errors.append(f"{f}/SKILL.md: no frontmatter between --- lines")
+                  continue
+              name, desc, lic = field(fm, "name"), field(fm, "description"), field(fm, "license")
+              if name != f:
+                  errors.append(f"{f}/SKILL.md: name is '{name}', must be the folder name '{f}'")
+              if not desc:
+                  errors.append(f"{f}/SKILL.md: description is missing")
+              elif len(desc) > 1024:
+                  errors.append(f"{f}/SKILL.md: description is {len(desc)} characters, the limit is 1024")
+              if not lic or "CC-BY-4.0" not in lic:
+                  errors.append(f"{f}/SKILL.md: license line with CC-BY-4.0 and the credit is missing")
+              if not re.search(r"^metadata:\n(?:[ \t]+.*\n)*?[ \t]+author:", fm + "\n", re.M):
+                  errors.append(f"{f}/SKILL.md: metadata.author is missing")
+              if not (ROOT / f / "README.md").exists():
+                  errors.append(f"{f}: README.md is missing")
+
+          for manifest in ["marketplace.json", "plugin.json"]:
+              path = ROOT / ".claude-plugin" / manifest
+              try:
+                  data = json.loads(path.read_text(encoding="utf-8"))
+              except (OSError, ValueError) as e:
+                  errors.append(f".claude-plugin/{manifest}: {e}")
+                  continue
+              listed = data["plugins"][0].get("skills", []) if manifest == "marketplace.json" else data.get("skills", [])
+              listed = sorted(s.strip("./") for s in listed)
+              for s in sorted(set(folders) - set(listed)):
+                  errors.append(f".claude-plugin/{manifest}: skill folder '{s}' is not listed")
+              for s in sorted(set(listed) - set(folders)):
+                  errors.append(f".claude-plugin/{manifest}: lists '{s}', which has no SKILL.md")
+
+          readme = (ROOT / "README.md").read_text(encoding="utf-8")
+          for f in folders:
+              if f'href="{f}"' not in readme:
+                  errors.append(f"README.md: skill folder '{f}' has no row in the skill tables")
+
+          for md in ROOT.rglob("*.md"):
+              if ".git" in md.parts:
+                  continue
+              text = md.read_text(encoding="utf-8")
+              for url in re.findall(r"\]\(([^)\s]+)\)", text) + re.findall(r'(?:href|src)="([^"]+)"', text):
+                  path = url.split("#")[0]
+                  if not path or re.match(r"[a-z]+:", path):
+                      continue
+                  if not os.path.exists(os.path.normpath(os.path.join(md.parent, path))):  # normalised: "x/../" can overrun Windows' path limit
+                      errors.append(f"{md.relative_to(ROOT).as_posix()}: link to '{url}' points at nothing")
+
+          for e in errors:
+              print("::error::" + e)
+          print(f"{len(folders)} skills checked, {len(errors)} problem(s)")
+          sys.exit(1 if errors else 0)
+          PY
       - name: Build the ZIPs
-        run: python .github/scripts/build_skill_zips.py dist
+        run: |
+          python - dist <<'PY'
+          """Builds one ZIP per skill folder for uploading to Claude.ai (Customize > Skills > Upload a skill), plus one ZIP
+          with every skill for Claude Code and other assistants. Runs in CI on every push to main.
+
+          <folder>.zip holds <folder>/SKILL.md (the skill folder at the root, as Claude.ai asks), any other files the skill
+          ships except README.md (its links point back into the repository), and LICENSE with the CC BY 4.0 text the
+          credit line refers to. In the zipped SKILL.md, the top-level `version` and `tags` keys move under `metadata` as
+          strings, which is where the Agent Skills spec puts extra fields; the repository files stay as they are.
+
+          linkedin-ads-skills-all.zip holds every skill folder the same way, for unzipping into ~/.claude/skills or another
+          assistant's skills folder.
+
+          linkedin-ads-skills-plugin.zip is the whole plugin, for Claude.ai's Customize > Plugins > Add > Upload plugin: the
+          plugin manifest and icon from .claude-plugin/ (not the marketplace file), every skill folder as above, and both
+          licence files at the root."""
+          import pathlib
+          import re
+          import sys
+          import zipfile
+
+          ROOT = pathlib.Path.cwd()
+          OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "dist").resolve()
+          STAMP = (2026, 1, 1, 0, 0, 0)  # fixed time inside the archives, so an unchanged skill gives an identical file
+          LICENSE = (ROOT / "LICENSE").read_text(encoding="utf-8")
+
+
+          def spec_frontmatter(text: str) -> str:
+              text = text.replace("\r\n", "\n")
+              m = re.match(r"---\n(.*?)\n---\n", text, re.S)
+              if not m:
+                  raise SystemExit("no frontmatter")
+              lines, extra, out = m.group(1).split("\n"), {}, []
+              for line in lines:
+                  k = re.match(r"(version|tags):\s*(.*)$", line)
+                  if k:
+                      extra[k.group(1)] = k.group(2).strip().strip("[]").strip("\"'")
+                  else:
+                      out.append(line)
+              if extra:
+                  added = [f'  {k}: "{", ".join(x.strip() for x in v.split(","))}"' for k, v in extra.items()]
+                  if "metadata:" in out:
+                      i = out.index("metadata:") + 1
+                      while i < len(out) and out[i].startswith((" ", "\t")):
+                          i += 1
+                      out[i:i] = added
+                  else:
+                      out += ["metadata:"] + added
+              return "---\n" + "\n".join(out) + "\n---\n" + text[m.end():]
+
+
+          def add(z: zipfile.ZipFile, arcname: str, data: bytes) -> None:
+              info = zipfile.ZipInfo(arcname, STAMP)
+              info.compress_type = zipfile.ZIP_DEFLATED
+              info.external_attr = 0o644 << 16
+              z.writestr(info, data)
+
+
+          def write_skill(z: zipfile.ZipFile, folder: pathlib.Path) -> None:
+              for p in sorted(folder.rglob("*")):
+                  if p.is_dir() or p.name == "README.md":
+                      continue
+                  rel = p.relative_to(ROOT).as_posix()
+                  data = spec_frontmatter(p.read_text(encoding="utf-8")).encode("utf-8") if p.name == "SKILL.md" else p.read_bytes()
+                  add(z, rel, data)
+              add(z, f"{folder.name}/LICENSE", LICENSE.encode("utf-8"))
+
+
+          OUT.mkdir(parents=True, exist_ok=True)
+          folders = sorted(p.parent for p in ROOT.glob("*/SKILL.md"))
+          for f in folders:
+              with zipfile.ZipFile(OUT / f"{f.name}.zip", "w") as z:
+                  write_skill(z, f)
+          with zipfile.ZipFile(OUT / "linkedin-ads-skills-all.zip", "w") as z:
+              for f in folders:
+                  write_skill(z, f)
+          with zipfile.ZipFile(OUT / "linkedin-ads-skills-plugin.zip", "w") as z:
+              for name in ["plugin.json", "icon.png"]:
+                  add(z, f".claude-plugin/{name}", (ROOT / ".claude-plugin" / name).read_bytes())
+              for name in ["LICENSE", "LICENSE-MIT"]:
+                  add(z, name, (ROOT / name).read_bytes())
+              for f in folders:
+                  write_skill(z, f)
+          print(f"{len(folders)} skill zips, linkedin-ads-skills-all.zip and linkedin-ads-skills-plugin.zip in {OUT}")
+          PY
       - name: Point the tag at this commit
         run: |
           git tag -f "$TAG" "$GITHUB_SHA"
