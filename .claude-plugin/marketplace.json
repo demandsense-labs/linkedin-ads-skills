@@ -10,7 +10,7 @@
       "name": "linkedin-ads-skills",
       "source": "./",
       "description": "Scenarios and skills for LinkedIn Ads, written and tested by practitioners: warm-lead handoff, account audits, targeting reviews, creative, budget, pacing, benchmarks and reporting. Read-only.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "DemandSense",
         "url": "https://demandsense.com"
