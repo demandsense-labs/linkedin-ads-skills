@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Who the budget reaches</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Who the budget reaches</a></sub>
 
-<a href="https://b2baistandard.com/skills/linkedin-audience-demographics"><img src="../assets/covers/linkedin-audience-demographics.svg" width="96" height="96" alt="LinkedIn Audience Demographics"></a>
+<a href="https://b2baistandard.com/skills/linkedin-audience-demographics"><img src="../assets/covers/linkedin-audience-demographics.png" width="96" height="96" alt="LinkedIn Audience Demographics"></a>
 
 # LinkedIn Audience Demographics
 

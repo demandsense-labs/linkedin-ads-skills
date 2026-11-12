@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/targeting-vs-who-actually-buys"><img src="../assets/covers/monthly-targeting-review.svg" width="96" height="96" alt="Targeting vs who actually buys"></a>
+<a href="https://b2baistandard.com/scenarios/targeting-vs-who-actually-buys"><img src="../assets/covers/monthly-targeting-review.png" width="96" height="96" alt="Targeting vs who actually buys"></a>
 
 # Targeting vs who actually buys
 

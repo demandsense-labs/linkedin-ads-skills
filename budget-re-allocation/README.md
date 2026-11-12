@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://b2baistandard.com/skills/budget-re-allocation"><img src="../assets/covers/budget-re-allocation.svg" width="96" height="96" alt="Budget Re-allocation"></a>
+<a href="https://b2baistandard.com/skills/budget-re-allocation"><img src="../assets/covers/budget-re-allocation.png" width="96" height="96" alt="Budget Re-allocation"></a>
 
 # Budget Re-allocation
 

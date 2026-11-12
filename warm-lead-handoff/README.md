@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/warm-lead-handoff"><img src="../assets/covers/warm-lead-handoff.svg" width="96" height="96" alt="Warm-lead handoff"></a>
+<a href="https://b2baistandard.com/scenarios/warm-lead-handoff"><img src="../assets/covers/warm-lead-handoff.png" width="96" height="96" alt="Warm-lead handoff"></a>
 
 # Warm-lead handoff
 

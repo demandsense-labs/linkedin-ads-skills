@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/turn-social-signals-into-pipeline"><img src="../assets/covers/social-signals-to-pipeline.svg" width="96" height="96" alt="Turn social signals into pipeline"></a>
+<a href="https://b2baistandard.com/scenarios/turn-social-signals-into-pipeline"><img src="../assets/covers/social-signals-to-pipeline.png" width="96" height="96" alt="Turn social signals into pipeline"></a>
 
 # Turn social signals into pipeline
 

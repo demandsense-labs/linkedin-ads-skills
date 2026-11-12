@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Reach and frequency</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Reach and frequency</a></sub>
 
-<a href="https://b2baistandard.com/skills/capping-recommendation"><img src="../assets/covers/capping-recommendation.svg" width="96" height="96" alt="Capping Recommendation"></a>
+<a href="https://b2baistandard.com/skills/capping-recommendation"><img src="../assets/covers/capping-recommendation.png" width="96" height="96" alt="Capping Recommendation"></a>
 
 # Capping Recommendation
 

@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/account-audit-by-cadence"><img src="../assets/covers/account-audit-by-cadence.svg" width="96" height="96" alt="Account audit by cadence"></a>
+<a href="https://b2baistandard.com/scenarios/account-audit-by-cadence"><img src="../assets/covers/account-audit-by-cadence.png" width="96" height="96" alt="Account audit by cadence"></a>
 
 # Account audit by cadence
 

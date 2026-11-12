@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/linkedin-fit-gate"><img src="../assets/covers/audience-fit-check.svg" width="96" height="96" alt="LinkedIn fit gate + daily fit check"></a>
+<a href="https://b2baistandard.com/scenarios/linkedin-fit-gate"><img src="../assets/covers/audience-fit-check.png" width="96" height="96" alt="LinkedIn fit gate + daily fit check"></a>
 
 # LinkedIn fit gate + daily fit check
 

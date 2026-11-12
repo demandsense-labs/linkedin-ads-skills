@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · From signal to sales</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · From signal to sales</a></sub>
 
-<a href="https://b2baistandard.com/skills/whos-looking-at-your-buying-pages"><img src="../assets/covers/whos-looking-at-your-buying-pages.svg" width="96" height="96" alt="Who's Looking at Your Buying Pages"></a>
+<a href="https://b2baistandard.com/skills/whos-looking-at-your-buying-pages"><img src="../assets/covers/whos-looking-at-your-buying-pages.png" width="96" height="96" alt="Who's Looking at Your Buying Pages"></a>
 
 # Who's Looking at Your Buying Pages
 

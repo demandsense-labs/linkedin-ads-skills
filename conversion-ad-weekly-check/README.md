@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#scenarios">Scenarios</a></sub>
 
-<a href="https://b2baistandard.com/scenarios/weekly-check-for-conversion-campaigns"><img src="../assets/covers/conversion-ad-weekly-check.svg" width="96" height="96" alt="Weekly check for conversion campaigns"></a>
+<a href="https://b2baistandard.com/scenarios/weekly-check-for-conversion-campaigns"><img src="../assets/covers/conversion-ad-weekly-check.png" width="96" height="96" alt="Weekly check for conversion campaigns"></a>
 
 # Weekly check for conversion campaigns
 

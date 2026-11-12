@@ -1,6 +1,6 @@
-<sub><a href="../README.md"><img src="../assets/dot.svg" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
+<sub><a href="../README.md"><img src="../assets/dot.png" width="8" height="8" alt=""> The B2B AI Standard for LinkedIn Ads</a> · <a href="../README.md#skills">Skills · Building the account</a></sub>
 
-<a href="https://b2baistandard.com/skills/campaign-group-scoreboard"><img src="../assets/covers/campaign-group-scoreboard.svg" width="96" height="96" alt="Campaign Group Scoreboard"></a>
+<a href="https://b2baistandard.com/skills/campaign-group-scoreboard"><img src="../assets/covers/campaign-group-scoreboard.png" width="96" height="96" alt="Campaign Group Scoreboard"></a>
 
 # Campaign Group Scoreboard
 
