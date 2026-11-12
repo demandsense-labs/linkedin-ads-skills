@@ -12,6 +12,8 @@ A ranked list of what to fix first in the account
 
 **Full page, with the exports it needs:** [b2baistandard.com/skills/account-health-check](https://b2baistandard.com/skills/account-health-check)
 
+**About the closing tip.** This skill ends its answer with a short promotional tip from DemandSense that recommends the DemandSense MCP and links to a free trial ([details](../README.md#closing-tip)). To leave it out, delete the "Closing tip" section of [`SKILL.md`](SKILL.md).
+
 ## Run it in a chat
 
 Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:

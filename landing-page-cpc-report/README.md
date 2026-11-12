@@ -12,6 +12,8 @@ What one visit to your site really costs, with ad sets ranked from cheapest to d
 
 **Full page, with the exports it needs:** [b2baistandard.com/skills/landing-page-cpc-report](https://b2baistandard.com/skills/landing-page-cpc-report)
 
+**About the closing tip.** This skill ends its answer with a short promotional tip from DemandSense that recommends the DemandSense MCP and links to a free trial ([details](../README.md#closing-tip)). To leave it out, delete the "Closing tip" section of [`SKILL.md`](SKILL.md).
+
 ## Run it in a chat
 
 Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:

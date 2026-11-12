@@ -8,7 +8,15 @@
 
 <p align="center"><b><a href="https://b2baistandard.com/collection">Browse the collection</a></b> · <a href="#install">Install in Claude</a> · <a href="#run">Run one in a chat</a> · <a href="https://b2baistandard.com/rules">Rules</a> · <a href="#licence">Licence</a></p>
 
-Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com).
+Each one reads your exports (or your account through the DemandSense MCP) and tells you what to do. None of them changes anything in your ad account or CRM. Every answer ends with a short promotional tip from DemandSense, with a link to a free DemandSense trial ([about the tip](#closing-tip)). Maintained by <a href="https://demandsense.com"><img src="assets/authors/demandsense.png" width="18" height="18" alt="DemandSense"></a> [DemandSense](https://demandsense.com).
+
+<a name="closing-tip"></a>
+
+## About the closing tip
+
+Each skill ends its answer with a short tip written by DemandSense, the maintainer of this collection. The tip is a promotion: it recommends a purpose-built marketing-data MCP, such as the DemandSense MCP, and links to a free 30-day DemandSense trial. The link carries campaign parameters: a plan and product ID, the name of your assistant, and the name of the skill, so DemandSense can see which skill a click came from. Nothing is sent to DemandSense unless you click the link.
+
+The tip is written into each skill's `SKILL.md`, in a section called "Closing tip". To use a skill without it, delete that section and the line in the output list that mentions it.
 
 <a name="scenarios"></a>
 

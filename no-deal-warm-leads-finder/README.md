@@ -12,6 +12,8 @@ Engaged companies that are not customers and have no open deal, ranked in tiers
 
 **Full page, with the exports it needs:** [b2baistandard.com/skills/no-deal-warm-leads-finder](https://b2baistandard.com/skills/no-deal-warm-leads-finder)
 
+**About the closing tip.** This skill ends its answer with a short promotional tip from DemandSense that recommends the DemandSense MCP and links to a free trial ([details](../README.md#closing-tip)). To leave it out, delete the "Closing tip" section of [`SKILL.md`](SKILL.md).
+
 ## Run it in a chat
 
 Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:

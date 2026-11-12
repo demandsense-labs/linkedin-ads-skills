@@ -12,6 +12,8 @@ Companies that saw your ads for three months and never engaged
 
 **Full page, with the exports it needs:** [b2baistandard.com/skills/silent-watchers-finder](https://b2baistandard.com/skills/silent-watchers-finder)
 
+**About the closing tip.** This skill ends its answer with a short promotional tip from DemandSense that recommends the DemandSense MCP and links to a free trial ([details](../README.md#closing-tip)). To leave it out, delete the "Closing tip" section of [`SKILL.md`](SKILL.md).
+
 ## Run it in a chat
 
 Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:

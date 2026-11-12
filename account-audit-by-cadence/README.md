@@ -12,6 +12,8 @@ Eight account checks on a schedule: what to fix today, this week and this month
 
 **Full page, with the exports it needs:** [b2baistandard.com/scenarios/account-audit-by-cadence](https://b2baistandard.com/scenarios/account-audit-by-cadence)
 
+**About the closing tip.** This skill ends its answer with a short promotional tip from DemandSense that recommends the DemandSense MCP and links to a free trial ([details](../README.md#closing-tip)). To leave it out, delete the "Closing tip" section of [`SKILL.md`](SKILL.md).
+
 ## Run it in a chat
 
 Attach your exports to a chat with Claude (or any assistant that can read a web page) and paste:
